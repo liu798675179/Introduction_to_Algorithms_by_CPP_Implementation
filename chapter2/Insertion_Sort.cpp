@@ -29,3 +29,9 @@ void Insertion_Sort() {
 		cout << temp << " ";
 	}
 }
+
+int main(){
+	Insertion_Sort();
+
+	return 0;
+}
