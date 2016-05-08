@@ -44,11 +44,11 @@ void Merge_Sort(vector<long long> &temp_v) {
 }
 
 int main() {
-	uniform_int_distribution<long long> u(0, 10000000);  // Random-number distribution.
-	default_random_engine               e;               // Random-number engines.
-	vector<long long>                   v1;              // Data structure.
+	static uniform_int_distribution<long long> u(0, 10000000);  // Random-number distribution.
+	static default_random_engine               e;               // Random-number engines.
+	vector<long long>                          v1;              // Data structure.
 
-	for (long long i = 0; i != 10000; ++i) {             // Write to the need to sort the data.
+	for (long long i = 0; i != 10000; ++i) {                    // Write to the need to sort the data.
 		v1.push_back(u(e));
 	}
 
