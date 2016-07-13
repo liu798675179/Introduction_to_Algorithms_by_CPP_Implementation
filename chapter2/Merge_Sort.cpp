@@ -43,16 +43,25 @@ void Merge_Sort(vector<long long> &temp_v) {
 	Merge_Sort(temp_v, tempArray, 0, (temp_v.size() - 1));
 }
 
-int main() {
-	static uniform_int_distribution<long long> u(0, 10000000);  // Random-number distribution.
-	static default_random_engine               e;               // Random-number engines.
-	vector<long long>                          v1;              // Data structure.
+vector<long long> Random() {
+	static default_random_engine        e;               // Random-number engines.
+	static uniform_int_distribution<unsigned long long>
+		u(0, 10000000);                                  // Random-number distribution.
+	vector<long long>                   v1;              // Data structure.
+	unsigned long long                  temp_key;        // Temporary data variable
+	int                                 k;               // Temporary subscript variable.
 
-	for (long long i = 0; i != 10000; ++i) {                    // Write to the need to sort the data.
+	for (size_t i = 0; i != 10000; ++i) {                // Write to the need to sort the data.
 		v1.push_back(u(e));
 	}
 
+	return v1;
+}
+
+int main() {
+	vector<long long> v1 = Random();
 	Merge_Sort(v1);
+
 	for (auto & i : v1)
 		cout << i << " ";
 
