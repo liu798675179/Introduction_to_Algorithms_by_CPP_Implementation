@@ -46,10 +46,8 @@ void Merge_Sort(vector<long long> &temp_v) {
 vector<long long> Random() {
 	static default_random_engine        e;               // Random-number engines.
 	static uniform_int_distribution<unsigned long long>
-		u(0, 10000000);                                  // Random-number distribution.
+		u(0, 10000000);                              // Random-number distribution.
 	vector<long long>                   v1;              // Data structure.
-	unsigned long long                  temp_key;        // Temporary data variable
-	int                                 k;               // Temporary subscript variable.
 
 	for (size_t i = 0; i != 10000; ++i) {                // Write to the need to sort the data.
 		v1.push_back(u(e));
