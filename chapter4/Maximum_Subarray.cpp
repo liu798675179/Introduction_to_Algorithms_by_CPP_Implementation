@@ -8,7 +8,7 @@ using namespace std;
 vector<int> Random() {
 	static default_random_engine        e;               // Random-number engines.
 	static uniform_int_distribution<int>
-		                                  u(-10, 10);      // Random-number distribution.
+		                            u(-10, 10);      // Random-number distribution.
 	vector<int>                         v1;              // Data structure.
 
 	for (size_t i = 0; i != 100; ++i) {                  // Write to the need to sort the data.
