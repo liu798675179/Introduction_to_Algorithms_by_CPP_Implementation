@@ -19,12 +19,11 @@ void Insertion_Sort(vector<long long> &v1) {
 }
 
 vector<long long> Random() {
-	static default_random_engine        e;               // Random-number engines.
-	static uniform_int_distribution<unsigned long long>
-	                                    u(0, 10000000);  // Random-number distribution.
-	vector<long long>                   v1;              // Data structure.
+	static default_random_engine               e;
+	static uniform_int_distribution<long long> u(-100000000, 100000000);
+	vector<long long>                          v1;
 
-	for (size_t i = 0; i != 10000; ++i) {                // Write to the need to sort the data.
+	for (size_t i = 0; i != 10000; ++i) {
 		v1.push_back(u(e));
 	}
 
