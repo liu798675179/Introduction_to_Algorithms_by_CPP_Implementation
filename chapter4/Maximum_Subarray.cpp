@@ -6,12 +6,11 @@
 using namespace std;
 
 vector<int> Random() {
-	static default_random_engine        e;               // Random-number engines.
-	static uniform_int_distribution<int>
-		                            u(-10, 10);      // Random-number distribution.
-	vector<int>                         v1;              // Data structure.
+	static default_random_engine         e;
+	static uniform_int_distribution<int> u(-1000, 1000);
+	vector<int>                          v1;
 
-	for (size_t i = 0; i != 100; ++i) {                  // Write to the need to sort the data.
+	for (size_t i = 0; i != 100; ++i) {
 		v1.push_back(u(e));
 	}
 
