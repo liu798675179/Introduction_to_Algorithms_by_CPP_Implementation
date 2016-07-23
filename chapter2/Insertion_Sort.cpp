@@ -32,11 +32,11 @@ vector<long long> Random() {
 
 int main(){
     vector<long long> v1 = Random();
-	Insertion_Sort(v1);
+    Insertion_Sort(v1);
 
-	for (auto &temp : v1) {
+    for (auto &temp : v1) {
 	cout << temp << " ";
-	}
+    }
 
-	return 0;
+    return 0;
 }
