@@ -5,7 +5,7 @@
 using namespace std;
 
 void Insertion_Sort(vector<long long> &v1) {
-	int k;
+	long long k;
 	long long temp_key;
 	for (size_t j = 1; j != v1.size(); ++j) {            // Algorithm.
 		temp_key = v1[j];
