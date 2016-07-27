@@ -31,7 +31,7 @@ size_t Partition(vector<long long> &v1, size_t p, size_t r) {
 
 void Quick_Sort(vector<long long> &v1, long long p, long long r) {
 	if (p < r) {
-		size_t q = Partition(v1, p, r);
+		auto q = Partition(v1, p, r);
 		Quick_Sort(v1, p, q - 1);
 		Quick_Sort(v1, q + 1, r);
 	}
