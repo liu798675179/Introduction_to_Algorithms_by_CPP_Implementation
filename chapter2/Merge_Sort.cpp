@@ -7,13 +7,13 @@ using namespace std;
 vector<long long> Random() {
 	static default_random_engine               e;
 	static uniform_int_distribution<long long> u(-100000000, 100000000);
-	vector<long long>                          temp_v;
+	vector<long long>                          v1;
 
 	for (size_t i = 0; i != 10000; ++i) {
-		temp_v.push_back(u(e));
+		v1.push_back(u(e));
 	}
 
-	return temp_v;
+	return v1;
 }
 
 void Merge(vector<long long> &v1, vector<long long> &temp_v, size_t p, size_t q, size_t r) {
@@ -36,14 +36,14 @@ void Merge(vector<long long> &v1, vector<long long> &temp_v, size_t p, size_t q,
 		temp_v[tempPos++] = v1[q++];
 	}
 
-	for (size_t i = 0; i != length; ++i, --r) {
+	for (auto i = 0; i != length; ++i, --r) {
 		v1[r] = temp_v[r];
 	}
 }
 
 void Merge_Sort(vector<long long> &v1, vector<long long> &temp_v, size_t p, size_t r) {
 	if (p < r) {
-		size_t q = (p + r) / 2;
+		auto q = (p + r) / 2;
 		Merge_Sort(v1, temp_v, p, q);
 		Merge_Sort(v1, temp_v, (q + 1), r);
 		Merge(v1, temp_v, p, (q + 1), r);
