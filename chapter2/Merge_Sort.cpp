@@ -4,55 +4,55 @@
 
 using namespace std;
 
-void Merge(vector<long long> &temp_v, vector<long long> &tempArray, size_t p, size_t q, size_t r) {
-	size_t leftEnd = q - 1;
-	size_t tempPos = p;
-	size_t numElements = r - p + 1;
-
-	while (p <= leftEnd && q <= r) {
-		if (temp_v[p] <= temp_v[q])
-			tempArray[tempPos++] = temp_v[p++];
-		else
-			tempArray[tempPos++] = temp_v[q++];
-	}
-
-	while (p <= leftEnd) {
-		tempArray[tempPos++] = temp_v[p++];
-	}
-
-	while (q <= r) {
-		tempArray[tempPos++] = temp_v[q++];
-	}
-
-	for (size_t i = 0; i != numElements; ++i, --r) {
-		temp_v[r] = tempArray[r];
-	}
-}
-
-void Merge_Sort(vector<long long> &temp_v, vector<long long> &tempArray, size_t p, size_t r) {
-	if (p < r) {
-		size_t q = (p + r) / 2;        
-		Merge_Sort(temp_v, tempArray, p, q);
-		Merge_Sort(temp_v, tempArray, (q + 1), r);
-		Merge(temp_v, tempArray, p, (q + 1), r);
-	}
-}
-
-void Merge_Sort(vector<long long> &temp_v) {
-	vector<long long> tempArray(temp_v.size());
-	Merge_Sort(temp_v, tempArray, 0, (temp_v.size() - 1));
-}
-
 vector<long long> Random() {
 	static default_random_engine               e;
 	static uniform_int_distribution<long long> u(-100000000, 100000000);
-	vector<long long>                          v1;
+	vector<long long>                          temp_v;
 
 	for (size_t i = 0; i != 10000; ++i) {
-		v1.push_back(u(e));
+		temp_v.push_back(u(e));
 	}
 
-	return v1;
+	return temp_v;
+}
+
+void Merge(vector<long long> &v1, vector<long long> &temp_v, size_t p, size_t q, size_t r) {
+	size_t leftEnd = q - 1;
+	size_t tempPos = p;
+	size_t length = r - p + 1;
+
+	while (p <= leftEnd && q <= r) {
+		if (v1[p] <= v1[q])
+			temp_v[tempPos++] = v1[p++];
+		else
+			temp_v[tempPos++] = v1[q++];
+	}
+
+	while (p <= leftEnd) {
+		temp_v[tempPos++] = v1[p++];
+	}
+
+	while (q <= r) {
+		temp_v[tempPos++] = v1[q++];
+	}
+
+	for (size_t i = 0; i != length; ++i, --r) {
+		v1[r] = temp_v[r];
+	}
+}
+
+void Merge_Sort(vector<long long> &v1, vector<long long> &temp_v, size_t p, size_t r) {
+	if (p < r) {
+		size_t q = (p + r) / 2;
+		Merge_Sort(v1, temp_v, p, q);
+		Merge_Sort(v1, temp_v, (q + 1), r);
+		Merge(v1, temp_v, p, (q + 1), r);
+	}
+}
+
+void Merge_Sort(vector<long long> &v1) {
+	vector<long long> temp_v(v1.size());
+	Merge_Sort(v1, temp_v, 0, (v1.size() - 1));
 }
 
 int main() {
