@@ -7,7 +7,7 @@ using namespace std;
 void Insertion_Sort(vector<long long> &v1) {
 	long long k;
 	long long temp_key;
-	for (size_t j = 1; j != v1.size(); ++j) {            // Algorithm.
+	for (auto j = 1; j != v1.size(); ++j) {            // Algorithm.
 		temp_key = v1[j];
 		k = j - 1;
 		while (k >= 0 && v1[k] > temp_key) {
@@ -23,20 +23,20 @@ vector<long long> Random() {
 	static uniform_int_distribution<long long> u(-100000000, 100000000);
 	vector<long long>                          v1;
 
-	for (size_t i = 0; i != 10000; ++i) {
+	for (auto i = 0; i != 10000; ++i) {
 		v1.push_back(u(e));
 	}
 
 	return v1;
 }
 
-int main(){
-    vector<long long> v1 = Random();
-    Insertion_Sort(v1);
+int main() {
+	vector<long long> v1 = Random();
+	Insertion_Sort(v1);
 
-    for (auto &temp : v1) {
-	cout << temp << " ";
-    }
+	for (auto &temp : v1) {
+		cout << temp << " ";
+	}
 
-    return 0;
+	return 0;
 }
