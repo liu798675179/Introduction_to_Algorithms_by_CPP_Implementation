@@ -17,29 +17,28 @@ vector<long long> Random() {
 }
 
 size_t Partition(vector<long long> &v1, size_t p, size_t r) {
-	auto x = v1[p];
-	auto i = p;
-	for (auto j = p + 1; j != r; ++j) {
-		if (v1[j] <= x) {
+	auto i = p - 1;
+	for (auto j = p; j != r; ++j) {
+		if (v1[j] <= v1[r]) {
 			++i;
 			swap(v1[i], v1[j]);
 		}
 	}
-	swap(v1[i], v1[p]);
+	swap(v1[i + 1], v1[r]);
 
-	return i;
+	return i + 1;
 }
 
-void Quick_Sort(vector<long long> &v1, size_t p, size_t r) {
+void Quick_Sort(vector<long long> &v1, long long p, long long r) {
 	if (p < r) {
 		size_t q = Partition(v1, p, r);
-		Quick_Sort(v1, p, q);
+		Quick_Sort(v1, p, q - 1);
 		Quick_Sort(v1, q + 1, r);
 	}
 }
 
 void Quick_Sort(vector<long long> &v1) {
-	size_t b = 0, e = v1.size();
+	size_t b = 0, e = v1.size() - 1;
 	Quick_Sort(v1, b, e);
 }
 
