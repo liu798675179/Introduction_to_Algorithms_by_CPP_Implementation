@@ -1,4 +1,4 @@
-//Tan Chuanqi's thought   chuanqi.tan@gmail.com
+//Tan Chuanqi's thought.   chuanqi.tan@gmail.com
 
 #include <iostream>
 #include <vector>
