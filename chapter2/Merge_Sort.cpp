@@ -59,8 +59,8 @@ int main() {
 	vector<long long> v1 = Random();
 	Merge_Sort(v1);
 
-	for (auto & i : v1)
-		cout << i << " ";
+	for (auto &temp : v1)
+		cout << temp << " ";
 
 	return 0;
 }
