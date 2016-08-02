@@ -67,8 +67,8 @@ int main() {
 	size_t high = v1.size() - 1;
 	tuple<size_t, size_t, long long> a = Find_Maximum_Subarray(v1, low, high);
 
-	for (auto &A : v1) {
-		cout << A << " ";
+	for (auto &temp : v1) {
+		cout << temp << " ";
 	}
 	cout << endl << endl << " begin: " << get<0>(a) << " " << " end: " << get<1>(a) << " " << " sum: " << get<2>(a) << endl << endl;
 
