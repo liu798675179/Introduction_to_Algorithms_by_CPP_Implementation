@@ -18,7 +18,7 @@ vector<long long> Random() {
 }
 
 tuple<size_t, size_t, long long> Find_Max_crossing_Subarray(vector<long long> &v1, size_t &low, size_t &mid, size_t &high) {
-	long long left_sum = INT_MIN, right_sum = INT_MIN, sum = 0;
+	long long left_sum = LONG_MIN, right_sum = LONG_MIN, sum = 0;
 	size_t max_left = 0, max_right = 0;
 	for (long long i = mid; i >= 0; --i) {
 		sum += v1[i];
@@ -69,7 +69,7 @@ int main() {
 	for (auto &A : v1) {
 		cout << A << " ";
 	}
-	cout << endl << endl << " begin: " << get<0>(a) << " "  << " end: " << get<1>(a) << " " << " sum: " << get<2>(a) << endl << endl;
+	cout << endl << endl << " begin: " << get<0>(a) << " " << " end: " << get<1>(a) << " " << " sum: " << get<2>(a) << endl << endl;
 
 	return 0;
 }
