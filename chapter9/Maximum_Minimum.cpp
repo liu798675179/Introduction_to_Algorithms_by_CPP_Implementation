@@ -2,6 +2,7 @@
 #include <vector>
 #include <random>
 #include <utility>
+#include <algorithm>
 
 using namespace std;
 
@@ -38,10 +39,10 @@ int main() {
 
 	cout << i.first << " " << i.second << endl;
 
-       /*sort(v1.begin(), v1.end());
+	/*sort(v1.begin(), v1.end());
 
 	for (auto &i : v1) {
-		cout << i << " ";
+	cout << i << " ";
 	}*/
 
 	return 0;
