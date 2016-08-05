@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <random>
+#include <utility>
 
 using namespace std;
 
@@ -16,33 +17,26 @@ vector<long long> Random() {
 	return v1;
 }
 
-long long Minimum(vector<long long> &v1) {
-	auto min = v1[0];
+pair<long long, long long> Maximun_Minimum(vector<long long> &v1) {
+	auto max = v1[0], min = v1[0];
 	for (auto &i : v1) {
 		if (min >= i) {
 			min = i;
 		}
-	}
-
-	return min;
-}
-
-long long Maximun(vector<long long> &v1) {
-	auto max = v1[0];
-	for (auto &i : v1) {
 		if (max <= i) {
 			max = i;
 		}
 	}
 
-	return max;
+	return make_pair(max, min);
 }
 
 
 int main() {
 	vector<long long> v1 = Random();
+	pair<long long, long long> i = Maximun_Minimum(v1);
 
-	cout << Minimum(v1) << " " << Maximun(v1) << endl;
+	cout << i.first << " " << i.second << endl;
 
 	return 0;
 }
