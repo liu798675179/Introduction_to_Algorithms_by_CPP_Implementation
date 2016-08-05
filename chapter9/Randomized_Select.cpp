@@ -35,25 +35,16 @@ size_t Random_Partition(vector<long long> &v1, size_t p, size_t r) {
 	return i + 1;
 }
 
-long long Randomized_Select(vector<long long> &v1, long long p, long long r, long long i) {
+long long Randomized_Select(vector<long long> &v1, size_t p, size_t r, size_t i) {
 	if (p == r) {
 		return v1[p];
 	}
-	if (i == r + 1) {
-		auto max = v1[0];
-		for (auto &i : v1) {
-			if (max <= i) {
-				max = i;
-			}
-		}
 
-		return max;
-	}
 	auto q = Random_Partition(v1, p, r);
 	auto k = q - p + 1;
 
 	if (i == k) {
-		return v1[p];
+		return v1[q];
 	}
 	else if (i < k) {
 		return Randomized_Select(v1, p, q - 1, i);
@@ -74,9 +65,8 @@ int main() {
 	cout << Randomized_Select(v1, 1) << endl;
 
 	/*sort(v1.begin(), v1.end());
-
 	for (auto &i : v1) {
-		cout << i << " ";
+	cout << i << " ";
 	}*/
 
 	return 0;
