@@ -21,6 +21,7 @@ protected:
 public:
 	Stack() = default;
 	Stack(const Stack &s) : c(s.c){}
+	Stack(Stack &&s) : c(move(s.c)){}
 	Stack& operator=(const Stack &s) {
 		c = s.c;
 		return *this;
