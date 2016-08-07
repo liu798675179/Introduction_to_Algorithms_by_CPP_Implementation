@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <random>
 #include <vector>
@@ -20,7 +21,7 @@ vector<long long> Random() {
 
 int main() {
 	vector<long long> v1 = Random();
-	Priority_Queue<long long> a(v1);
+	Priority_Queue<long long> a(v1.begin(), v1.begin() + 10000);
 
 	a.pop();
 	cout << a.size() << endl;
