@@ -251,26 +251,30 @@ public:
 public:
 	List() { initialize(); }
 	~List() = default;
-	List(const List &rhs) {
-		*this = rhs;
+
+	/*List(const List &rhs) {
+		clear();
+		for (auto &i : rhs) {
+			push_back(i);
+		}
 	}
-	const List& operator=(const List& rhs) {
+	List& operator=(const List &rhs) {
 		if (this == &rhs) {
 			return *this;
 		}
 		clear();
-		for (auto itr = rhs.begin(); itr != rhs.end(); ++itr) {
-			push_back(*itr);
+		for (auto &i : rhs) {
+			push_back(i);
 		}
 
 		return *this;
-	}
+	}*/
 
 	iterator begin() {
 		return iterator(head->next);
 	}
 	const_iterator begin() const {
-		return const_iterator(head->next)
+		return const_iterator(head->next);
 	}
 	reverse_iterator rbegin() {
 		return reverse_iterator(tail->prev);
