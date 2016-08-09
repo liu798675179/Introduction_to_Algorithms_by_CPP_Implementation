@@ -315,7 +315,7 @@ public:
 		return iterator(a);
 	}
 
-	// Back_insetr.
+	// Back_insert.
 	iterator back_insert(iterator itr, const Data& data) {
 		shared_ptr<Node> p = itr.ptr;
 		++List_Size;
