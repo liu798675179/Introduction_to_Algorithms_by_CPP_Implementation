@@ -252,23 +252,22 @@ public:
 	List() { initialize(); }
 	~List() = default;
 
-	/*List(const List &rhs) {
-		clear();
-		for (auto &i : rhs) {
-			push_back(i);
-		}
-	}
-	List& operator=(const List &rhs) {
-		if (this == &rhs) {
-			return *this;
-		}
-		clear();
-		for (auto &i : rhs) {
-			push_back(i);
-		}
-
-		return *this;
-	}*/
+	//List(const List &rhs) {
+	//	clear();
+	//	for (auto &i : rhs) {
+	//		push_back(i);
+	//	}
+	//}
+	//List& operator=(const List &rhs) {
+	//	if (this == &rhs) {
+	//		return *this;
+	//	}
+	//	clear();
+	//	for (auto &i : rhs) {
+	//		push_back(i);
+	//	}
+	//	return *this;
+	//}
 
 	iterator begin() {
 		return iterator(head->next);
@@ -400,6 +399,19 @@ public:
 		for (auto &i : temp_v) {
 			push_back(i);
 		}
+	}
+
+	iterator search(const Data &x) {
+		auto temp_count = 0;
+		for (auto &i : *this) {
+			if (i != x) {
+				++temp_count;
+			}
+			else {
+				break;
+			}
+		}
+		return begin() + temp_count;
 	}
 
 	bool empty()                    { return List_Size == 0; }
