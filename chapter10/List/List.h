@@ -3,6 +3,8 @@
 
 #include <memory>
 #include <stdexcept>
+#include <vector>
+#include <algorithm>
 
 using std::move;
 using std::shared_ptr;
@@ -302,12 +304,35 @@ public:
 		return iterator(a);
 		//return iterator(p->prev = p->prev->next = make_shared<Node>(data, p->prev, p));
 	}
+	iterator front_insert(iterator itr) {
+		shared_ptr<Node> p = itr.ptr;
+		++List_Size;
+		auto a = make_shared<Node>();
+		a->prev = p->prev;
+		a->next = p;
+		p->prev = a;
+		a->prev->next = a;
+		return iterator(a);
+		//return iterator(p->prev = p->prev->next = make_shared<Node>(data, p->prev, p));
+	}
+
 	// Back_insetr.
 	iterator back_insert(iterator itr, const Data& data) {
 		shared_ptr<Node> p = itr.ptr;
 		++List_Size;
 		auto a = make_shared<Node>();
 		a->data = data;
+		a->prev = p;
+		a->next = p->next;
+		p->next = a;
+		a->next->prev = a;
+		return iterator(a);
+		//return iterator(p->next = p->next->prev = make_shared<Node>(data, p, p->next));
+	}
+	iterator back_insert(iterator itr) {
+		shared_ptr<Node> p = itr.ptr;
+		++List_Size;
+		auto a = make_shared<Node>();
 		a->prev = p;
 		a->next = p->next;
 		p->next = a;
@@ -350,14 +375,28 @@ public:
 			pop_front();
 		}
 	}
+
 	void print() {
 		for (auto &i : *this) {
 			cout << i << endl;
 		}
 	}
+
 	void resize(long long LL) {
 		for (auto i = 0; i != LL; ++i) {
-			push_back(0);
+			push_back();
+		}
+	}
+
+	void sort() {
+		std::vector<Data> temp_v;
+		for (auto &i : *this) {
+			temp_v.push_back(i);
+		}
+		std::stable_sort(temp_v.begin(), temp_v.end());
+		clear();
+		for (auto &i : temp_v) {
+			push_back(i);
 		}
 	}
 
@@ -367,8 +406,10 @@ public:
 	const Data& front() const       { return front(); }
 	Data& back()                    { return *--end(); }
 	const Data& back() const        { return back(); }
+	void push_front()               { front_insert(begin()); }
 	void push_front(const Data &x)  { front_insert(begin(), x); }
 	void push_front(const Data &&x) { front_insert(begin(), move(x)); }
+	void push_back()                { back_insert(--end()); }
 	void push_back(const Data &x)   { back_insert(--end(), x); }
 	void push_back(const Data &&x)  { back_insert(--end(), move(x)); }
 	void pop_front()                { erase(begin()); }
@@ -378,4 +419,3 @@ public:
 
 
 #endif // !LIST_H
-
