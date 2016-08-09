@@ -14,6 +14,7 @@ int main() {
 	int f = 5;
 	a.erase(a.begin() + f, --a.end() - 1);
 	a.resize(7);
+	a.sort();
 	a.print();
 	cout << endl;
 	cout << a.size() << endl;
