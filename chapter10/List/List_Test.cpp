@@ -1,5 +1,6 @@
 #include <iostream>
 #include "List.h"
+#include <initializer_list>
 
 using namespace std;
 
@@ -20,5 +21,12 @@ int main() {
 	cout << a.size() << endl;
 	cout << a.front() << endl;
 	cout << a.back() << endl;
+	List<int> b = a;
+	initializer_list<int> il{ 5, 3, 9 };
+	List<int> c;
+	for (auto &i : il) {
+		c.push_back(i);
+	}
+	cout << *(a.search(6));
 	return 0;
 }
