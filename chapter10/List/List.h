@@ -313,7 +313,6 @@ public:
 		p->prev = a;
 		a->prev->next = a;
 		return iterator(a);
-		//return iterator(p->prev = p->prev->next = make_shared<Node>(data, p->prev, p));
 	}
 
 	// Back_insetr.
@@ -338,7 +337,6 @@ public:
 		p->next = a;
 		a->next->prev = a;
 		return iterator(a);
-		//return iterator(p->next = p->next->prev = make_shared<Node>(data, p, p->next));
 	}
 
 	iterator erase(iterator itr) {
