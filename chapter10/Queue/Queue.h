@@ -2,7 +2,6 @@
 #define QUEUE_H
 
 #include <deque>
-#include <algorithm>
 
 using std::deque;
 using std::move;
