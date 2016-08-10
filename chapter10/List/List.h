@@ -388,6 +388,12 @@ public:
 			push_back();
 		}
 	}
+	
+	void resize(long long LL, Dtat &x) {
+		for (auto i = 0; i != LL; ++i) {
+			push_back(x);
+		}
+	}
 
 	void sort() {
 		std::vector<Data> temp_v;
