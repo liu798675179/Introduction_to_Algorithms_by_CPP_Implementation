@@ -191,7 +191,7 @@ public:
 		bool operator!=(const const_reverse_iterator& rhs) {
 			return !(*this == rhs);
 		}
-		
+
 	protected:
 		shared_ptr<Node> ptr;
 	};
@@ -345,14 +345,14 @@ public:
 	iterator erase(iterator itr) {
 		shared_ptr<Node> p = itr.ptr;
 		iterator itaval(p->next);
-		try{
+		try {
 			if (p == head) {
 				throw runtime_error("No elements can erase!");
 			}
 			else if (p == tail) {
 				throw runtime_error("No elements can erase!");
 			}
-			else{
+			else {
 				p->prev->next = p->next;
 				p->next->prev = p->prev;
 				--List_Size;
@@ -365,10 +365,10 @@ public:
 	}
 
 	iterator erase(iterator begin, iterator end) {  // [begin, end)
-			while (begin != end) {
-				begin = erase(begin);
-			}
-			return iterator(end);
+		while (begin != end) {
+			begin = erase(begin);
+		}
+		return iterator(end);
 	}
 
 	void clear() {
@@ -388,10 +388,16 @@ public:
 			push_back();
 		}
 	}
-	
-	void resize(long long LL, Dtat &x) {
+
+	void resize(long long LL, Data &x) {
 		for (auto i = 0; i != LL; ++i) {
 			push_back(x);
+		}
+	}
+
+	void resize(long long LL, Data &&x) {
+		for (auto i = 0; i != LL; ++i) {
+			push_back(move(x));
 		}
 	}
 
@@ -420,20 +426,20 @@ public:
 		return begin() + temp_count;
 	}
 
-	bool empty()                    { return List_Size == 0; }
-	size_t size()                   { return List_Size; }
-	Data& front()                   { return *begin(); }
-	const Data& front() const       { return front(); }
-	Data& back()                    { return *--end(); }
-	const Data& back() const        { return back(); }
-	void push_front()               { front_insert(begin()); }
-	void push_front(const Data &x)  { front_insert(begin(), x); }
+	bool empty() { return List_Size == 0; }
+	size_t size() { return List_Size; }
+	Data& front() { return *begin(); }
+	const Data& front() const { return front(); }
+	Data& back() { return *--end(); }
+	const Data& back() const { return back(); }
+	void push_front() { front_insert(begin()); }
+	void push_front(const Data &x) { front_insert(begin(), x); }
 	void push_front(const Data &&x) { front_insert(begin(), move(x)); }
-	void push_back()                { back_insert(--end()); }
-	void push_back(const Data &x)   { back_insert(--end(), x); }
-	void push_back(const Data &&x)  { back_insert(--end(), move(x)); }
-	void pop_front()                { erase(begin()); }
-	void pop_back()                 { erase(--end()); }
+	void push_back() { back_insert(--end()); }
+	void push_back(const Data &x) { back_insert(--end(), x); }
+	void push_back(const Data &&x) { back_insert(--end(), move(x)); }
+	void pop_front() { erase(begin()); }
+	void pop_back() { erase(--end()); }
 
 };
 
