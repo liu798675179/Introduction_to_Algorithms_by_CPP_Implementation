@@ -35,7 +35,7 @@ public:
 	void pop()                     { c.pop_back(); }
 	reference top()                { return c.back(); }
 	const_reference top() const    { return c.back(); }
-	void swap(Stack &s)            { swap(c, s.c); }
+	void swap(Stack &s)            { std::swap(c, s.c); }
 	template <typename... Args>
 	void emplace(Args&& ... args) {
 		c.emplace_back(forward<Args>(args)...);
