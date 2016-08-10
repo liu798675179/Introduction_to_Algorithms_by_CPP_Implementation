@@ -37,7 +37,7 @@ public:
 	const_reference front() const  { return (c.front()); }
 	reference back()               { return (c.back()); }
 	const_reference back() const   { return (c.back()); }
-	void swap(Queue &s)            { swap(c, s.c); }
+	void swap(Queue &s)            { std::swap(c, s.c); }
 	template <typename... Args>
 	void emplace(Args&& ... args) {
 		c.emplace_back(forward<Args>(args)...);
