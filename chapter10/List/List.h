@@ -6,7 +6,6 @@
 #include <vector>
 #include <algorithm>
 
-using std::move;
 using std::shared_ptr;
 using std::make_shared;
 
@@ -389,15 +388,9 @@ public:
 		}
 	}
 
-	void resize(long long LL, Data &x) {
+	void resize(long long LL, const Data &x) {
 		for (auto i = 0; i != LL; ++i) {
 			push_back(x);
-		}
-	}
-
-	void resize(long long LL, Data &&x) {
-		for (auto i = 0; i != LL; ++i) {
-			push_back(move(x));
 		}
 	}
 
@@ -434,10 +427,8 @@ public:
 	const Data& back() const { return back(); }
 	void push_front() { front_insert(begin()); }
 	void push_front(const Data &x) { front_insert(begin(), x); }
-	void push_front(const Data &&x) { front_insert(begin(), move(x)); }
 	void push_back() { back_insert(--end()); }
 	void push_back(const Data &x) { back_insert(--end(), x); }
-	void push_back(const Data &&x) { back_insert(--end(), move(x)); }
 	void pop_front() { erase(begin()); }
 	void pop_back() { erase(--end()); }
 
