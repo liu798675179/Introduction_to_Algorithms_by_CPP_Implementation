@@ -18,9 +18,9 @@ class Sgl_HashTable {
 	typedef typename list<T>::iterator iterator;
 public:
 	Sgl_HashTable() { resize(); }
-	Sgl_HashTable(const size_t &temp_bucket) { 
+	Sgl_HashTable(const size_t &temp_bucket) {
 		bucket = temp_bucket;
-		elem.resize(bucket); 
+		elem.resize(bucket);
 	}
 	~Sgl_HashTable() = default;
 
@@ -48,10 +48,20 @@ public:
 		return std::make_pair(Hval, pos);
 	}
 
-	void erase(const T &x) {
+	void erase_one(const T &x) {
 		auto p = search(x);
 		if (p.second != elem[p.first].end()) {
 			elem[p.first].erase(p.second);
+		}
+	}
+
+	void erase(const T &x) {
+		auto p = search(x);
+		auto pos = p.second;
+		if (pos != elem[p.first].end()) {
+			while (pos != elem[p.first].end() && *pos == x) {
+					pos = elem[p.first].erase(pos);
+			}
 		}
 	}
 
@@ -97,10 +107,20 @@ public:
 		return std::make_pair(Hval, pos);
 	}
 
-	void erase(const key &x) {
+	void erase_one(const key &x) {
 		auto p = search(x);
 		if (p.second != elem[p.first].end()) {
 			elem[p.first].erase(p.second);
+		}
+	}
+
+	void erase(const key &x) {
+		auto p = search(x);
+		auto pos = p.second;
+		if (pos != elem[p.first].end()) {
+			while (pos != elem[p.first].end() && pos->first == x) {
+				pos = elem[p.first].erase(pos);
+			}
 		}
 	}
 
