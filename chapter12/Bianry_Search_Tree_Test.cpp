@@ -13,6 +13,7 @@ int main() {
 	//a.Preorder_Tree_Walk();
 	//a.Postorder_Tree_Walk();
 	cout << endl << a.Tree_Maximum()->data.second << endl;
+	cout << a.Tree_Hight() << endl;
 
 	return 0;
 }
