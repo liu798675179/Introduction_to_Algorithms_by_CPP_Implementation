@@ -2,6 +2,7 @@
 #define BIANRY_SEARCH_TREE_H
 
 #include <memory>
+#include <queue>
 #include <utility>
 #include <stdexcept>
 #include <functional>
@@ -215,7 +216,27 @@ public:
 			}
 		}
 	}
+
+	size_t Tree_Hight(const shared_ptr<Node> &p) {
+		if (p != nullptr) {
+			size_t left = Tree_Hight(p->left);
+			size_t right = Tree_Hight(p->right);
+			if (left > right) {
+				return left + 1;
+			}
+			else {
+				return right + 1;
+			}
+		}
+		else {
+			return 0;
+		}
+	}
+
+	size_t Tree_Hight() {
+		return Tree_Hight(Root);
+	}
+
 };
 
 #endif // !BIANRY_SEARCH_TREE_H
-
