@@ -2,7 +2,6 @@
 #define BIANRY_SEARCH_TREE_H
 
 #include <memory>
-#include <queue>
 #include <utility>
 #include <stdexcept>
 #include <functional>
