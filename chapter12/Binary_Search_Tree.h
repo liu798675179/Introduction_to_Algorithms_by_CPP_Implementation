@@ -11,7 +11,7 @@ using std::pair;
 
 template<typename T>
 class BST { 
-	public:
+public:
 	struct Node{
 		Node() = default;
 		Node(const pair<size_t, T> &d, const shared_ptr<Node> &l, const shared_ptr<Node> &r, const shared_ptr<Node> &p) :
