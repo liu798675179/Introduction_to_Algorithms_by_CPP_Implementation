@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
 	RBT RBTree;
 	for (auto i = 0; i <= 100; ++i){
 		RBTree.Insert(i);  
