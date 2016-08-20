@@ -1,5 +1,5 @@
-#ifndef RED_BLACK_TREE_H
-#define RED_BLACK_TREE_H
+#ifndef RED_BLACK_TREE_X86_H
+#define RED_BLACK_TREE_X86_H
 
 #include <iostream>
 #include <memory>
@@ -425,4 +425,4 @@ public:
 
 };
 
-#endif // !RED_BLACK_TREE_H
+#endif // !RED_BLACK_TREE_X86_H
