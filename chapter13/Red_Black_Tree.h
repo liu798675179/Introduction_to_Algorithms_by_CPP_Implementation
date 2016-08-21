@@ -10,8 +10,7 @@ using std::shared_ptr;
 using std::cout;
 using std::endl;
 
-class RBT
-{
+class RBT {
 private:
 	enum Color { Red, Black };
 
