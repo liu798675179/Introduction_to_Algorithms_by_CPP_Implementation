@@ -20,6 +20,7 @@ int Cut_Rod_Recursion(const vector<int> &temp_Vec, const size_t &temp_n) {
 
 	return temp_q;
 }
+
 //Top-down with memoization of part 1.
 int Memoized_Cut_Rod_Aux(const vector<int> &temp_Vec, const size_t &temp_n, vector<int> &temp_VecR) {
 	auto temp_q = INT_MIN;
@@ -41,6 +42,7 @@ int Memoized_Cut_Rod_Aux(const vector<int> &temp_Vec, const size_t &temp_n, vect
 
 	return temp_q;
 }
+
 //Top-down with memoization of part 2.
 int Memoized_Cut_Rod(const vector<int> &temp_Vec, const size_t &temp_n) {
 	vector<int> temp_VecR;
