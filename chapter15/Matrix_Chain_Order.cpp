@@ -85,6 +85,37 @@ int Memoized_Matrix_Chain(const vector<int> &temp_Vec) {
 	return Lookup_Chain(temp_VecM, temp_Vec, 1, temp_n);
 }
 
+//Recusive.
+int Recursive_Matrix_Chain(const vector<int> &temp_Vec, const int &i, const int &j) {
+	if (i == j) {
+		return 0;
+	}
+	auto temp_n = temp_Vec.size() - 1;
+	vector<vector<int>> temp_VecM;
+
+	temp_VecM.resize(temp_n + 1);
+
+	for (auto &x : temp_VecM) {
+		x.resize(temp_n + 1);
+	}
+
+	for (auto &x : temp_VecM) {
+		for (auto &y : x) {
+			y = INT_MAX;
+		}
+	}
+
+	for (auto k = i; k <= j - 1; ++k) {
+		auto temp_q = Recursive_Matrix_Chain(temp_Vec, i, k) + Recursive_Matrix_Chain(temp_Vec, k + 1, j) + temp_Vec[i - 1] * temp_Vec[k] * temp_Vec[j];
+
+		if (temp_q < temp_VecM[i][j]) {
+			temp_VecM[i][j] = temp_q;
+		}
+	}
+
+	return temp_VecM[i][j];
+}
+
 //Print optimal bracket scheme.
 void Print_Optimal_Parens(const vector<vector<int>> &temp_VecS, const int &i, const int &j) {
 	if(i == j) {
@@ -99,8 +130,8 @@ void Print_Optimal_Parens(const vector<vector<int>> &temp_VecS, const int &i, co
 }
 
 int main() {
-	pair<vector<vector<int>>, vector<vector<int>>> temp_Pair = Matrix_Chain_Order(temp_Vec);
-	vector<vector<int>> temp_VecM = temp_Pair.first, temp_VecS = temp_Pair.second;
+	auto temp_Pair = Matrix_Chain_Order(temp_Vec);
+	auto temp_VecM = temp_Pair.first, temp_VecS = temp_Pair.second;
 
 	cout << temp_VecM[2][5] << endl;  //A2 to A5 by bottom-up.
 
@@ -114,7 +145,9 @@ int main() {
 		cout << endl;
 	}
 
-	cout << endl << Memoized_Matrix_Chain(temp_Vec);  //A1 to A6 by memoized.
+	cout << endl << Recursive_Matrix_Chain(temp_Vec, 1, 6) << endl; // A1 to A6 by recursive.
+
+	cout << endl << Memoized_Matrix_Chain(temp_Vec) << endl;  //A1 to A6 by memoized.
 
 	return 0;
 }
