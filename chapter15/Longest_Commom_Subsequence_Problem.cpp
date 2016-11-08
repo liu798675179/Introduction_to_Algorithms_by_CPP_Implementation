@@ -7,7 +7,7 @@ using namespace  std;
 
 string temp_strX = { "#AGCTCCACG" }, temp_strY = { "#AGCAAAGCGT" }; //AGCTCCACG & AGCAAAGCGT
 
-//Bottom-up of Lcs
+//Memoized of Lcs
 pair<vector<vector<int>>,vector<vector<int>>> Lcs_Length(const string &temp_strX, const string &strY) {
 	auto temp_m = temp_strX.size() - 1, temp_n = temp_strY.size() - 1;
 	vector<vector<int>> temp_VecB, temp_VecC;
