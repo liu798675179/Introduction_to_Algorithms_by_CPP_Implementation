@@ -1,3 +1,3 @@
 Some Algorithms by C++ Implementation.
 
-use C++1x.
+Use C++1x.
