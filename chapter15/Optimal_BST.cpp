@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//Probability.
 vector<double> temp_dblP = { 0.0,0.15,0.10,0.05,0.10,0.20 }, temp_dblQ = { 0.05,0.10,0.05,0.05,0.05,0.10 };
 
 //Just Memoized of Optimal_BST
