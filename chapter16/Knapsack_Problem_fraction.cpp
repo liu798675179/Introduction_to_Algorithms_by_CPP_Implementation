@@ -27,10 +27,10 @@ pair<vector<pair<int, int>>, int> Knapsack_Problem_fraction(vector<int> const &t
 }
 
 int main() {
-	auto temp_v = Knapsack_Problem_fraction(temp_VecP, temp_VecW, 50);
-	cout << temp_v.second << endl;
+	auto temp_VecPair = Knapsack_Problem_fraction(temp_VecP, temp_VecW, 50);
+	cout << temp_VecPair.second << endl;
 
-	for(auto &i : temp_v.first) {
+	for(auto &i : temp_VecPair.first) {
 		cout << i.first << " " << i.second << endl;
 	}
 
