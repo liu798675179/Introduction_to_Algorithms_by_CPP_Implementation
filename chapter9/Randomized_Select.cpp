@@ -45,13 +45,11 @@ long long Randomized_Select(vector<long long> &v1, size_t p, size_t r, size_t i)
 	if (i == k) {
 		return v1[q];
 	}
-	else if (i < k) {
+	if (i < k) {
 		return Randomized_Select(v1, p, q - 1, i);
 	}
-	else {
-		return Randomized_Select(v1, q + 1, r, i - k);
-	}
 
+	return Randomized_Select(v1, q + 1, r, i - k);
 }
 
 long long Randomized_Select(vector<long long> &v1, long long i) {
@@ -59,7 +57,7 @@ long long Randomized_Select(vector<long long> &v1, long long i) {
 }
 
 int main() {
-	vector<long long> v1 = Random();
+	auto v1 = Random();
 
 	cout << Randomized_Select(v1, 1) << endl;
 
