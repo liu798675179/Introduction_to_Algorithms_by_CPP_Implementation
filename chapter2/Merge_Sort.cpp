@@ -56,7 +56,7 @@ void Merge_Sort(vector<long long> &v1) {
 }
 
 int main() {
-	vector<long long> v1 = Random();
+	auto v1 = Random();
 	Merge_Sort(v1);
 
 	for (auto &temp : v1)
