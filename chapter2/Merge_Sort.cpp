@@ -17,9 +17,9 @@ vector<long long> Random() {
 }
 
 void Merge(vector<long long> &v1, vector<long long> &temp_v, size_t p, size_t q, size_t r) {
-	size_t leftEnd = q - 1;
-	size_t tempPos = p;
-	size_t length = r - p + 1;
+	auto leftEnd = q - 1;
+	auto tempPos = p;
+	auto length = r - p + 1;
 
 	while (p <= leftEnd && q <= r) {
 		if (v1[p] <= v1[q])
