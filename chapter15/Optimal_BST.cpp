@@ -51,6 +51,42 @@ Optimal_BST(const vector<double> &temp_dblP, const vector<double> &temp_dblQ, co
 	return make_pair(temp_VecE, temp_VecRoot);
 }
 
+void Print_BST(vector<vector<int>> const &temp_VecRoot, int const &temp_i, int const &temp_j, int const &temp_r) {
+	auto RootChild = 0;
+
+	if(temp_i < 6 && temp_j < 6) {
+		RootChild = temp_VecRoot[temp_i][temp_j];
+	}
+
+	if (RootChild == temp_VecRoot[1][temp_dblP.size() - 1]) {
+		cout << "k" << RootChild << " is root" << endl;
+		Print_BST(temp_VecRoot, temp_i, RootChild - 1, RootChild);
+		Print_BST(temp_VecRoot, RootChild + 1, temp_j, RootChild);
+
+		return;
+	}
+	if (temp_j < temp_i - 1) { return; }
+	if(temp_j == temp_i - 1) {
+		if(temp_j < temp_r) {
+			cout << "d" << temp_j << " is " << "k" << temp_r << "'s left child" << endl;
+		}
+		else {
+			cout << "d" << temp_j << " is " << "k" << temp_r << "'s right child" << endl;
+		}
+
+		return;
+	}
+	if (RootChild < temp_r) {
+		cout << "k" << RootChild << " is " << "k" << temp_r << "'s left child" << endl;
+	}
+	else {
+		cout << "k" << RootChild << " is " << "k" << temp_r << "'s right child" << endl;
+	}
+
+	Print_BST(temp_VecRoot, temp_i, RootChild - 1, RootChild);
+	Print_BST(temp_VecRoot, RootChild + 1, temp_j, RootChild);
+}
+
 int main() {
 	auto temp_pair = Optimal_BST(temp_dblP, temp_dblQ, 5);
 
@@ -69,6 +105,10 @@ int main() {
 		}
 		cout << endl;
 	}
+
+	cout << endl;
+
+	Print_BST(temp_pair.second, 1, temp_dblP.size() - 1, 0);
 
 	return 0;
 }
