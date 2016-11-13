@@ -17,9 +17,9 @@ vector<long long> Random() {
 }
 
 void Max_Heapify(vector<long long> &v1, size_t i, size_t length) {
-	size_t l = 2 * i + 1;
-	size_t r = 2 * i + 2;
-	size_t largest = i;
+	auto l = 2 * i + 1;
+	auto r = 2 * i + 2;
+	auto largest = i;
 
 	if (l < length && v1[l] > v1[i]) {
 		largest = l;
@@ -48,7 +48,7 @@ void Heap_Sort(vector<long long> &v1) {
 }
 
 int main() {
-	vector<long long> v1 = Random();
+	auto v1 = Random();
 	Heap_Sort(v1);
 
 	for (auto &i : v1) {
