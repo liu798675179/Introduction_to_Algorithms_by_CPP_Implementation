@@ -36,7 +36,7 @@ void Bucket_Sort(vector<double> &v1) {
 }
 
 int main() {
-	vector<double> v1 = Random();
+	auto v1 = Random();
 	Bucket_Sort(v1);
 
 	for (auto &i : v1) {
