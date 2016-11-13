@@ -34,8 +34,8 @@ pair<long long, long long> Maximun_Minimum(vector<long long> &v1) {
 
 
 int main() {
-	vector<long long> v1 = Random();
-	pair<long long, long long> i = Maximun_Minimum(v1);
+	auto v1 = Random();
+	auto i = Maximun_Minimum(v1);
 
 	cout << i.first << " " << i.second << endl;
 
