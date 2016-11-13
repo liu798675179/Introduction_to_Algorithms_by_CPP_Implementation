@@ -9,7 +9,7 @@ vector<double> temp_dblP = { 0.0,0.15,0.10,0.05,0.10,0.20 }, temp_dblQ = { 0.05,
 
 //Just Memoized of Optimal_BST
 pair<vector<vector<double>>, vector<vector<int>>> 
-Optimal_BST(const vector<double> &temp_dblP, const vector<double> &temp_dblQ, const int &temp_n) {
+Optimal_BST(const vector<double> &temp_dblP, const vector<double> &temp_dblQ, const size_t &temp_n) {
 	vector<vector<double>> temp_VecE, temp_VecW;
 	vector<vector<int>> temp_VecRoot;
 
@@ -51,7 +51,7 @@ Optimal_BST(const vector<double> &temp_dblP, const vector<double> &temp_dblQ, co
 	return make_pair(temp_VecE, temp_VecRoot);
 }
 
-void Print_BST(vector<vector<int>> const &temp_VecRoot, int const &temp_i, int const &temp_j, int const &temp_r) {
+void Print_BST(vector<vector<int>> const &temp_VecRoot, size_t const &temp_i, size_t const &temp_j, size_t const &temp_r) {
 	auto RootChild = 0;
 
 	if(temp_i < temp_dblP.size() && temp_j < temp_dblP.size()) {
