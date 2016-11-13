@@ -40,32 +40,29 @@ tuple<size_t, size_t, long long> Find_Max_crossing_Subarray(vector<long long> &v
 
 tuple<size_t, size_t, long long> Find_Maximum_Subarray(vector<long long> &v1, size_t &low, size_t &high) {
 	if (high != low) {
-		size_t mid = (low + high) / 2;
-		tuple<size_t, size_t, long long> left_max = Find_Maximum_Subarray(v1, low, mid);
+		auto mid = (low + high) / 2;
+		auto left_max = Find_Maximum_Subarray(v1, low, mid);
 		mid += 1;
-		tuple<size_t, size_t, long long> right_max = Find_Maximum_Subarray(v1, mid, high);
+		auto right_max = Find_Maximum_Subarray(v1, mid, high);
 		mid -= 1;
-		tuple<size_t, size_t, long long> cross_max = Find_Max_crossing_Subarray(v1, low, mid, high);
+		auto cross_max = Find_Max_crossing_Subarray(v1, low, mid, high);
+
 		if (get<2>(left_max) >= get<2>(right_max) && get<2>(left_max) >= get<2>(cross_max)) {
 			return left_max;
 		}
-		else if (get<2>(right_max) >= get<2>(left_max) && get<2>(right_max) >= get<2>(cross_max)) {
+		if (get<2>(right_max) >= get<2>(left_max) && get<2>(right_max) >= get<2>(cross_max)) {
 			return right_max;
 		}
-		else {
-			return cross_max;
-		}
+		return cross_max;
 	}
-	else {
-		return{ low, high, v1[low] };
-	}
+	return{ low, high, v1[low] };
 }
 
 int main() {
-	vector<long long> v1 = Random();
+	auto v1 = Random();
 	size_t low = 0;
-	size_t high = v1.size() - 1;
-	tuple<size_t, size_t, long long> a = Find_Maximum_Subarray(v1, low, high);
+	auto high = v1.size() - 1;
+	auto a = Find_Maximum_Subarray(v1, low, high);
 
 	for (auto &temp : v1) {
 		cout << temp << " ";
