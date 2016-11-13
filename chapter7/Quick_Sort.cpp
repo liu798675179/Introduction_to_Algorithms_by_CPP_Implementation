@@ -43,7 +43,7 @@ void Quick_Sort(vector<long long> &v1) {
 }
 
 int  main() {
-	vector<long long> v1 = Random();
+	auto v1 = Random();
 	Quick_Sort(v1);
 
 	for (auto &i : v1) {
