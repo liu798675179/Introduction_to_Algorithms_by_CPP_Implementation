@@ -37,7 +37,7 @@ void Counting_sort(vector<long long> &v1) {
 }
 
 int main() {
-	vector<long long> v1 = Random();
+	auto v1 = Random();
 	Counting_sort(v1);
 
 	for (auto &i : v1) {
