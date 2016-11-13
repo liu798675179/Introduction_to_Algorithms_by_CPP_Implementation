@@ -38,7 +38,7 @@ void Radix_Sort(vector<long long> &v1, long long dim) {
 }
 
 int main() {
-	vector<long long> v1 = Random();
+	auto v1 = Random();
 	Radix_Sort(v1, max_dim);
 
 	for (auto &i : v1) {
