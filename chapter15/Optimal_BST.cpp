@@ -54,7 +54,7 @@ Optimal_BST(const vector<double> &temp_dblP, const vector<double> &temp_dblQ, co
 void Print_BST(vector<vector<int>> const &temp_VecRoot, int const &temp_i, int const &temp_j, int const &temp_r) {
 	auto RootChild = 0;
 
-	if(temp_i < 6 && temp_j < 6) {
+	if(temp_i < temp_dblP.size() && temp_j < temp_dblP.size()) {
 		RootChild = temp_VecRoot[temp_i][temp_j];
 	}
 
@@ -88,7 +88,7 @@ void Print_BST(vector<vector<int>> const &temp_VecRoot, int const &temp_i, int c
 }
 
 int main() {
-	auto temp_pair = Optimal_BST(temp_dblP, temp_dblQ, 5);
+	auto temp_pair = Optimal_BST(temp_dblP, temp_dblQ, temp_dblP.size() - 1);
 
 	for(auto &i : temp_pair.first) {
 		for(auto &j : i) {
