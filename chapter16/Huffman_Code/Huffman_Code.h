@@ -31,8 +31,10 @@ class H_BST {
 	shared_ptr<Node> Root = nullptr;
 	//Binary_Search_Tree with Huffman-Code.
 	vector<shared_ptr<Node>> Vec_Node;
-	//Letters and codes.
+	//Letters and bijection codes.
 	map<string, string> Map_Code;
+	//All of Letters's code.
+	string Binary_Code;
 
 public:
 	H_BST() = default;
@@ -49,6 +51,13 @@ public:
 		}
 
 		Huffman_Encoder(temp_Map);
+
+		for (auto &i : temp_str) {
+			temp_i = i;
+			Binary_Code += Map_Code[temp_i];
+		}
+
+		Huffman_Decoder(Vec_Node);
 	}
 
 	//Reading the data from file.
@@ -79,6 +88,13 @@ public:
 		}
 
 		Huffman_Encoder(temp_Map);
+
+		for (auto &i : temp_str) {
+			temp_i = i;
+			Binary_Code += Map_Code[temp_i];
+		}
+
+		Huffman_Decoder_File(Vec_Node);
 	}
 
 	//Encodering and saving the result.
@@ -121,6 +137,57 @@ public:
 			else {
 				Save_Coder(Root->left, code + "0");
 				Save_Coder(Root->right, code + "1");
+			}
+		}
+	}
+
+	//Decodering and outputting the result.
+	void Huffman_Decoder(vector<shared_ptr<Node>> const &Vec_Node) {
+		auto Ptr = Vec_Node[0];
+		string temp_i;
+
+		for(auto &i : Binary_Code) {
+			temp_i = i;
+			if(temp_i == "0") {
+				Ptr = Ptr->left;
+				if(Ptr->left == nullptr && Ptr->right == nullptr) {
+					cout << Ptr->data.first;
+					Ptr = Vec_Node[0];
+				}
+			}
+			if(temp_i == "1") {
+				Ptr = Ptr->right;
+				if (Ptr->left == nullptr && Ptr->right == nullptr) {
+					cout << Ptr->data.first;
+					Ptr = Vec_Node[0];
+				}
+			}
+		}
+
+		cout << endl;
+	}
+
+	//Decodering and outputting the result in the file.
+	void Huffman_Decoder_File(vector<shared_ptr<Node>> const &Vec_Node) {
+		auto Ptr = Vec_Node[0];
+		std::ofstream out("file_encoder_to_decoder.txt");
+		string temp_i;
+
+		for (auto &i : Binary_Code) {
+			temp_i = i;
+			if (temp_i == "0") {
+				Ptr = Ptr->left;
+				if (Ptr->left == nullptr && Ptr->right == nullptr) {
+					out << Ptr->data.first;
+					Ptr = Vec_Node[0];
+				}
+			}
+			if (temp_i == "1") {
+				Ptr = Ptr->right;
+				if (Ptr->left == nullptr && Ptr->right == nullptr) {
+					out << Ptr->data.first;
+					Ptr = Vec_Node[0];
+				}
 			}
 		}
 	}
