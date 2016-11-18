@@ -1,18 +1,21 @@
+#pragma once
 #ifndef BIANRY_SEARCH_TREE_H
 #define BIANRY_SEARCH_TREE_H
 
 #include <memory>
 #include <utility>
+#include <iostream>
 #include <stdexcept>
 #include <functional>
 
 using std::shared_ptr;
 using std::pair;
+using std::cout;
 
 template<typename T>
-class BST { 
+class BST {
 public:
-	struct Node{
+	struct Node {
 		Node() = default;
 		Node(const pair<size_t, T> &d, const shared_ptr<Node> &l, const shared_ptr<Node> &r, const shared_ptr<Node> &p) :
 			data(d), left(l), right(r), parent(p) {}
@@ -95,8 +98,8 @@ public:
 				throw std::runtime_error("The element was not found.");
 			}
 		}
-		catch (runtime_error err) {
-			cout << err.what() << endl;
+		catch (std::runtime_error &err) {
+			cout << err.what() << std::endl;
 		}
 		return p;
 	}
