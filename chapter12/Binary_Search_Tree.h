@@ -1,4 +1,3 @@
-#pragma once
 #ifndef BIANRY_SEARCH_TREE_H
 #define BIANRY_SEARCH_TREE_H
 
@@ -226,13 +225,9 @@ public:
 			if (left > right) {
 				return left + 1;
 			}
-			else {
-				return right + 1;
-			}
+			return right + 1;
 		}
-		else {
-			return 0;
-		}
+		return 0;
 	}
 
 	size_t Tree_Hight() {
