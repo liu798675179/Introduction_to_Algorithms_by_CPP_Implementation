@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Bianey_Search_Tree.h"
+#include "Bianry_Search_Tree.h"
 
 using namespace std;
 
