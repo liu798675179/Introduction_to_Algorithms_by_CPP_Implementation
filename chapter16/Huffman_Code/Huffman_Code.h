@@ -32,7 +32,7 @@ class H_BST {
 	//Binary_Search_Tree with Huffman-Code.
 	vector<shared_ptr<Node>> Vec_Node;
 	//Letters and codes.
-	vector<pair<string, string>> Vec_Code;
+	map<string, string> Map_Code;
 
 public:
 	H_BST() = default;
@@ -113,9 +113,9 @@ public:
 
 	//Saving the unique code of letters.
 	void Save_Coder(shared_ptr<Node> Root, string const &code) {
-		if(Root) {
-			if(!Root->left && !Root->right ) {
-				Vec_Code.push_back(std::make_pair(Root->data.first, code));
+		if (Root) {
+			if (!Root->left && !Root->right) {
+				Map_Code.insert(std::make_pair(Root->data.first, code));
 				std::cout << Root->data.first << " -> " << code << std::endl;
 			}
 			else {
