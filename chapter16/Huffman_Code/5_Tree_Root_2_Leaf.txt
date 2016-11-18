@@ -1,0 +1,767 @@
+name1|name2
+myeloid dendritic cell activation|myeloid dendritic cell activation involved in immune response
+myeloid dendritic cell activation|myeloid dendritic cell differentiation
+microglial cell activation|microglial cell activation involved in immune response
+leukocyte homeostasis|neutrophil homeostasis
+leukocyte homeostasis|lymphocyte homeostasis
+leukocyte homeostasis|mast cell homeostasis
+leukocyte homeostasis|monocyte homeostasis
+leukocyte homeostasis|dendritic cell homeostasis
+leukocyte homeostasis|macrophage homeostasis
+natural killer cell differentiation|natural killer cell differentiation involved in immune response
+B cell homeostasis|B-1 B cell homeostasis
+natural killer cell proliferation|natural killer cell proliferation involved in immune response
+type IIa hypersensitivity|antibody-dependent cellular cytotoxicity
+NK T cell proliferation|NK T cell proliferation involved in immune response
+leukocyte mediated cytotoxicity|antibody-dependent cellular cytotoxicity
+leukocyte mediated cytotoxicity|T cell mediated cytotoxicity
+leukocyte mediated cytotoxicity|natural killer cell mediated cytotoxicity
+leukocyte mediated cytotoxicity|neutrophil mediated cytotoxicity
+leukocyte mediated cytotoxicity|microglial cell mediated cytotoxicity
+T cell mediated cytotoxicity|T cell mediated cytotoxicity directed against tumor cell target
+B-1 B cell differentiation|B-1a B cell differentiation
+B-1 B cell differentiation|B-1b B cell differentiation
+somatic diversification of immune receptors|somatic diversification of DSCAM-based immune receptors
+somatic diversification of immune receptors|somatic diversification of variable lymphocyte receptors of jawless fish
+somatic diversification of immune receptors|somatic diversification of immune receptors via germline recombination within a single locus
+somatic diversification of immune receptors|somatic diversification of immune receptors via alternate splicing
+somatic diversification of immune receptors|somatic diversification of immune receptors via gene conversion
+somatic diversification of immune receptors|somatic diversification of immune receptors via somatic mutation
+somatic diversification of immune receptors|somatic diversification of FREP-based immune receptors
+somatic diversification of immune receptors|somatic diversification of T cell receptor genes
+somatic diversification of immune receptors|somatic diversification of immune receptors by N region addition
+somatic diversification of immune receptors|somatic diversification of immunoglobulins
+somatic recombination of immunoglobulin genes involved in immune response|isotype switching
+gene conversion of immunoglobulin genes|gene conversion of immunoglobulin genes involved in immune response
+somatic diversification of immunoglobulins involved in immune response|somatic recombination of immunoglobulin genes involved in immune response
+somatic diversification of immunoglobulins involved in immune response|somatic hypermutation of immunoglobulin genes involved in immune response
+somatic diversification of immunoglobulins involved in immune response|gene conversion of immunoglobulin genes involved in immune response
+activation of innate immune response|innate immune response-activating signal transduction
+activation of innate immune response|induced systemic resistance, jasmonic acid mediated signaling pathway
+activation of innate immune response|induced systemic resistance, ethylene mediated signaling pathway
+activation of innate immune response|defense response signaling pathway, resistance gene-dependent
+activation of innate immune response|defense response signaling pathway, resistance gene-independent
+innate immune response activating cell surface receptor signaling pathway|stimulatory killer cell immunoglobulin-like receptor signaling pathway
+innate immune response activating cell surface receptor signaling pathway|stimulatory C-type lectin receptor signaling pathway
+innate immune response activating cell surface receptor signaling pathway|cell surface pattern recognition receptor signaling pathway
+pattern recognition receptor signaling pathway|toll-like receptor signaling pathway
+pattern recognition receptor signaling pathway|cell surface pattern recognition receptor signaling pathway
+pattern recognition receptor signaling pathway|cytoplasmic pattern recognition receptor signaling pathway
+pattern recognition receptor signaling pathway|intracellular vesicle pattern recognition receptor signaling pathway
+toll-like receptor signaling pathway|MyD88-dependent toll-like receptor signaling pathway
+toll-like receptor signaling pathway|MyD88-independent toll-like receptor signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 1 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 2 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 3 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 4 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 5 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 6 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 7 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 8 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 9 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 10 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 11 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 12 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 13 signaling pathway
+toll-like receptor signaling pathway|TIRAP-dependent toll-like receptor signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 15 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor 21 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor TLR1:TLR2 signaling pathway
+toll-like receptor signaling pathway|toll-like receptor TLR6:TLR2 signaling pathway
+natural killer cell mediated immunity|natural killer cell cytokine production
+natural killer cell mediated immunity|natural killer cell mediated immune response to tumor cell
+natural killer cell mediated immunity|natural killer cell mediated cytotoxicity
+lymphocyte anergy|B cell anergy
+lymphocyte anergy|T cell anergy
+adaptive immune response|adaptive immune response based on somatic recombination of immune receptors built from leucine-rich repeat domains
+adaptive immune response|adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains
+organ or tissue specific immune response|immune response in brain or nervous system
+organ or tissue specific immune response|hepatic immune response
+organ or tissue specific immune response|mucosal immune response
+immune effector process|cell activation involved in immune response
+immune effector process|granuloma formation
+immune effector process|immune response-regulating cell surface receptor signaling pathway involved in phagocytosis
+immune effector process|immune complex clearance
+immune effector process|leukocyte mediated immunity
+immune effector process|leukocyte migration involved in immune response
+immune effector process|respiratory burst involved in defense response
+immune effector process|complement activation
+immune effector process|opsonization
+immune effector process|induced systemic resistance, jasmonic acid mediated signaling pathway
+immune effector process|induced systemic resistance, ethylene mediated signaling pathway
+immune effector process|encapsulation of foreign target
+immune effector process|leukocyte degranulation
+immune effector process|defense response to virus
+activation of immune response|activation of innate immune response
+activation of immune response|immune response-activating signal transduction
+activation of immune response|complement activation
+lymphocyte homeostasis|B cell homeostasis
+lymphocyte homeostasis|mucosal lymphocyte homeostasis
+lymphocyte homeostasis|T cell homeostasis
+myeloid cell homeostasis|neutrophil homeostasis
+myeloid cell homeostasis|mast cell homeostasis
+myeloid cell homeostasis|erythrocyte homeostasis
+myeloid cell homeostasis|monocyte homeostasis
+myeloid cell homeostasis|macrophage homeostasis
+cell activation involved in immune response|endothelial cell activation involved in immune response
+cell activation involved in immune response|astrocyte activation involved in immune response
+cell activation involved in immune response|follicular dendritic cell activation involved in immune response
+cell activation involved in immune response|leukocyte activation involved in immune response
+endothelial cell activation involved in immune response|endothelial cell activation within high endothelial venule involved in immune response
+plasmacytoid dendritic cell activation|plasmacytoid dendritic cell activation involved in immune response
+plasmacytoid dendritic cell activation|plasmacytoid dendritic cell differentiation
+plasmacytoid dendritic cell activation involved in immune response|plasmacytoid dendritic cell differentiation involved in immune response
+plasmacytoid dendritic cell differentiation|plasmacytoid dendritic cell differentiation involved in immune response
+myeloid leukocyte activation|myeloid dendritic cell activation
+myeloid leukocyte activation|myeloid cell activation involved in immune response
+myeloid leukocyte activation|granulocyte activation
+myeloid leukocyte activation|macrophage activation
+myeloid leukocyte activation|monocyte activation
+myeloid leukocyte activation|mast cell activation
+myeloid cell activation involved in immune response|basophil activation involved in immune response
+myeloid cell activation involved in immune response|myeloid dendritic cell activation involved in immune response
+myeloid cell activation involved in immune response|eosinophil activation involved in immune response
+myeloid cell activation involved in immune response|mast cell activation involved in immune response
+myeloid cell activation involved in immune response|monocyte activation involved in immune response
+myeloid cell activation involved in immune response|macrophage activation involved in immune response
+myeloid cell activation involved in immune response|neutrophil activation involved in immune response
+basophil activation involved in immune response|basophil degranulation
+myeloid dendritic cell activation involved in immune response|myeloid dendritic cell differentiation involved in immune response
+eosinophil activation involved in immune response|eosinophil degranulation
+mast cell activation involved in immune response|mast cell degranulation
+macrophage activation involved in immune response|microglial cell activation involved in immune response
+neutrophil activation involved in immune response|neutrophil degranulation
+lymphocyte activation involved in immune response|T cell activation involved in immune response
+lymphocyte activation involved in immune response|B cell activation involved in immune response
+lymphocyte activation involved in immune response|natural killer cell activation involved in immune response
+T cell activation involved in immune response|alpha-beta T cell activation involved in immune response
+T cell activation involved in immune response|gamma-delta T cell activation involved in immune response
+T cell activation involved in immune response|T cell activation via T cell receptor contact with antigen bound to MHC molecule on antigen presenting cell
+T cell activation involved in immune response|T cell differentiation involved in immune response
+T cell activation involved in immune response|T cell proliferation involved in immune response
+T cell activation involved in immune response|cytotoxic T cell degranulation
+alpha-beta T cell activation involved in immune response|NK T cell activation involved in immune response
+alpha-beta T cell activation involved in immune response|alpha-beta T cell differentiation involved in immune response
+alpha-beta T cell activation involved in immune response|alpha-beta T cell proliferation involved in immune response
+NK T cell activation involved in immune response|NK T cell proliferation involved in immune response
+gamma-delta T cell activation involved in immune response|gamma-delta T cell differentiation involved in immune response
+gamma-delta T cell activation involved in immune response|gamma-delta T cell proliferation involved in immune response
+T cell differentiation involved in immune response|alpha-beta T cell differentiation involved in immune response
+T cell differentiation involved in immune response|gamma-delta T cell differentiation involved in immune response
+T cell differentiation involved in immune response|memory T cell differentiation
+alpha-beta T cell differentiation involved in immune response|CD4-positive, alpha-beta T cell differentiation involved in immune response
+alpha-beta T cell differentiation involved in immune response|CD8-positive, alpha-beta T cell differentiation involved in immune response
+CD4-positive, alpha-beta T cell differentiation involved in immune response|CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation involved in immune response
+CD4-positive, alpha-beta T cell differentiation involved in immune response|T-helper cell differentiation
+alpha-beta intraepithelial T cell differentiation|CD8-positive, alpha-beta intraepithelial T cell differentiation
+alpha-beta intraepithelial T cell differentiation|CD4-positive, alpha-beta intraepithelial T cell differentiation
+gamma-delta intraepithelial T cell differentiation|CD8-positive, gamma-delta intraepithelial T cell differentiation
+gamma-delta intraepithelial T cell differentiation|CD4-positive gamma-delta intraepithelial T cell differentiation
+T cell proliferation involved in immune response|alpha-beta T cell proliferation involved in immune response
+T cell proliferation involved in immune response|gamma-delta T cell proliferation involved in immune response
+alpha-beta T cell proliferation involved in immune response|NK T cell proliferation involved in immune response
+B cell activation involved in immune response|mature B cell differentiation involved in immune response
+B cell activation involved in immune response|B cell proliferation involved in immune response
+B cell activation involved in immune response|isotype switching
+mature B cell differentiation involved in immune response|germinal center B cell differentiation
+mature B cell differentiation involved in immune response|marginal zone B cell differentiation
+mature B cell differentiation involved in immune response|follicular B cell differentiation
+mature B cell differentiation involved in immune response|plasma cell differentiation
+mature B cell differentiation involved in immune response|memory B cell differentiation
+natural killer cell activation involved in immune response|natural killer cell proliferation involved in immune response
+natural killer cell activation involved in immune response|natural killer cell differentiation involved in immune response
+natural killer cell activation involved in immune response|natural killer cell degranulation
+immature B cell differentiation|pre-B cell differentiation
+immature B cell differentiation|transitional stage B cell differentiation
+transitional stage B cell differentiation|transitional one stage B cell differentiation
+transitional stage B cell differentiation|transitional two stage B cell differentiation
+mature B cell differentiation|B-1 B cell differentiation
+mature B cell differentiation|mature B cell differentiation involved in immune response
+B cell selection|central B cell selection
+B cell selection|peripheral B cell selection
+B cell selection|B cell positive selection
+B cell selection|B cell negative selection
+central B cell selection|central B cell positive selection
+central B cell selection|central B cell negative selection
+peripheral B cell selection|B cell affinity maturation
+peripheral B cell selection|peripheral B cell positive selection
+peripheral B cell selection|peripheral B cell negative selection
+B cell positive selection|central B cell positive selection
+B cell positive selection|peripheral B cell positive selection
+B cell negative selection|central B cell negative selection
+B cell negative selection|peripheral B cell negative selection
+CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation|CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation involved in immune response
+leukocyte activation involved in immune response|plasmacytoid dendritic cell activation involved in immune response
+leukocyte activation involved in immune response|myeloid cell activation involved in immune response
+leukocyte activation involved in immune response|lymphocyte activation involved in immune response
+cytokine production involved in immune response|B cell cytokine production
+cytokine production involved in immune response|T cell cytokine production
+cytokine production involved in immune response|natural killer cell cytokine production
+cytokine production involved in immune response|dendritic cell cytokine production
+cytokine production involved in immune response|myeloid leukocyte cytokine production
+T cell cytokine production|CD4-positive, alpha-beta T cell cytokine production
+dendritic cell cytokine production|myeloid dendritic cell cytokine production
+dendritic cell cytokine production|plasmacytoid dendritic cell cytokine production
+immune system process|leukocyte homeostasis
+immune system process|somatic diversification of immune receptors
+immune system process|immune effector process
+immune system process|activation of immune response
+immune system process|myeloid cell homeostasis
+immune system process|B cell selection
+immune system process|antigen sampling in mucosal-associated lymphoid tissue
+immune system process|production of molecular mediator of immune response
+immune system process|tolerance induction
+immune system process|immune system development
+immune system process|immune response
+immune system process|antigen processing and presentation
+immune system process|lymphocyte costimulation
+immune system process|hemocyte proliferation
+immune system process|hemocyte differentiation
+immune system process|T cell selection
+immune system process|leukocyte activation
+immune system process|leukocyte migration
+immunoglobulin production|immunoglobulin production involved in immunoglobulin mediated immune response
+immunoglobulin production involved in immunoglobulin mediated immune response|immunoglobulin production in mucosal tissue
+mucosal immune response|innate immune response in mucosa
+mucosal immune response|immune response in mucosal-associated lymphoid tissue
+mucosal immune response|immune response in urogenital tract
+mucosal immune response|mucosal tolerance induction
+immune response in mucosal-associated lymphoid tissue|immune response in gut-associated lymphoid tissue
+immune response in mucosal-associated lymphoid tissue|tolerance induction in mucosal-associated lymphoid tissue
+immune response in gut-associated lymphoid tissue|immune response in Peyer's patch
+immune response in gut-associated lymphoid tissue|tolerance induction in gut-associated lymphoid tissue
+immune response in gut-associated lymphoid tissue|immune response in nasopharyngeal-associated lymphoid tissue
+immune response in Peyer's patch|tolerance induction in Peyer's patch
+tolerance induction in gut-associated lymphoid tissue|tolerance induction in Peyer's patch
+tolerance induction in gut-associated lymphoid tissue|tolerance induction in nasopharyngeal-associated lymphoid tissue
+immune response in nasopharyngeal-associated lymphoid tissue|tolerance induction in nasopharyngeal-associated lymphoid tissue
+tolerance induction in mucosal-associated lymphoid tissue|tolerance induction in gut-associated lymphoid tissue
+tolerance induction in mucosal-associated lymphoid tissue|B cell tolerance induction in mucosal-associated lymphoid tissue
+tolerance induction in mucosal-associated lymphoid tissue|T cell tolerance induction in mucosal-associated lymphoid tissue
+antigen sampling in mucosal-associated lymphoid tissue|antigen sampling by dendritic cells in mucosal-associated lymphoid tissue
+antigen sampling in mucosal-associated lymphoid tissue|antigen sampling by M cells in mucosal-associated lymphoid tissue
+dendritic cell chemotaxis|myeloid dendritic cell chemotaxis
+dendritic cell chemotaxis|plasmacytoid dendritic cell chemotaxis
+myeloid dendritic cell chemotaxis|Langerhans cell chemotaxis
+tolerance induction to tumor cell|T cell tolerance induction to tumor cell
+immune response to tumor cell|tolerance induction to tumor cell
+immune response to tumor cell|natural killer cell mediated immune response to tumor cell
+immune response to tumor cell|T cell mediated immune response to tumor cell
+immune response in urogenital tract|tolerance induction in urogenital tract
+natural killer cell mediated immune response to tumor cell|natural killer cell mediated cytotoxicity directed against tumor cell target
+T cell mediated immune response to tumor cell|T cell tolerance induction to tumor cell
+T cell mediated immune response to tumor cell|T cell mediated cytotoxicity directed against tumor cell target
+mucosal tolerance induction|tolerance induction in mucosal-associated lymphoid tissue
+mucosal tolerance induction|tolerance induction in urogenital tract
+antigen processing and presentation of peptide antigen via MHC class Ib|antigen processing and presentation of endogenous peptide antigen via MHC class Ib
+antigen processing and presentation of peptide antigen via MHC class Ib|antigen processing and presentation of exogenous peptide antigen via MHC class Ib
+immune response-activating cell surface receptor signaling pathway|innate immune response activating cell surface receptor signaling pathway
+immune response-activating cell surface receptor signaling pathway|complement receptor mediated signaling pathway
+immune response-activating cell surface receptor signaling pathway|Fc receptor mediated stimulatory signaling pathway
+immune response-activating cell surface receptor signaling pathway|antigen receptor-mediated signaling pathway
+complement receptor mediated signaling pathway|complement component C5a signaling pathway
+Fc receptor mediated stimulatory signaling pathway|Fc-gamma receptor signaling pathway involved in phagocytosis
+Fc receptor mediated stimulatory signaling pathway|positive regulation of mast cell activation by Fc-epsilon receptor signaling pathway
+immune response-regulating cell surface receptor signaling pathway involved in phagocytosis|Fc-gamma receptor signaling pathway involved in phagocytosis
+immune complex clearance|immune complex clearance by erythrocytes
+immune complex clearance|immune complex clearance by monocytes and macrophages
+inflammatory response to antigenic stimulus|acute inflammatory response to antigenic stimulus
+inflammatory response to antigenic stimulus|chronic inflammatory response to antigenic stimulus
+inflammatory response to antigenic stimulus|histamine secretion mediated by immunoglobulin
+acute inflammatory response to antigenic stimulus|hypersensitivity
+production of molecular mediator of immune response|cytokine production involved in immune response
+production of molecular mediator of immune response|immunoglobulin production
+production of molecular mediator of immune response|antimicrobial peptide production
+production of molecular mediator of immune response|granzyme A production
+production of molecular mediator of immune response|perforin production
+production of molecular mediator of immune response|granulysin production
+production of molecular mediator of immune response|granzyme B production
+production of molecular mediator of immune response|prostaglandin secretion involved in immune response
+leukocyte mediated immunity|leukocyte mediated cytotoxicity
+leukocyte mediated immunity|dendritic cell cytokine production
+leukocyte mediated immunity|myeloid leukocyte mediated immunity
+leukocyte mediated immunity|lymphocyte mediated immunity
+myeloid leukocyte mediated immunity|type III hypersensitivity
+myeloid leukocyte mediated immunity|myeloid dendritic cell cytokine production
+myeloid leukocyte mediated immunity|type II hypersensitivity
+myeloid leukocyte mediated immunity|neutrophil mediated immunity
+myeloid leukocyte mediated immunity|eosinophil mediated immunity
+myeloid leukocyte mediated immunity|mast cell mediated immunity
+myeloid leukocyte mediated immunity|basophil mediated immunity
+myeloid leukocyte mediated immunity|microglial cell mediated cytotoxicity
+type II hypersensitivity|type IIa hypersensitivity
+type II hypersensitivity|type IIb hypersensitivity
+neutrophil mediated immunity|neutrophil mediated cytotoxicity
+mast cell mediated immunity|type I hypersensitivity mediated by mast cells
+lymphocyte mediated immunity|natural killer cell mediated immunity
+lymphocyte mediated immunity|T cell mediated immunity
+lymphocyte mediated immunity|B cell mediated immunity
+B cell antigen processing and presentation|B cell antigen processing and presentation mediated by B cell receptor uptake of antigen
+B cell antigen processing and presentation|B cell antigen processing and presentation following pinocytosis
+peripheral B cell tolerance induction|B cell tolerance induction in mucosal-associated lymphoid tissue
+B cell receptor editing|peripheral B cell receptor editing
+B cell receptor editing|central B cell receptor editing
+T cell mediated immunity|type IV hypersensitivity
+T cell mediated immunity|T cell mediated cytotoxicity
+T cell mediated immunity|T cell cytokine production
+T cell mediated immunity|T cell mediated immune response to tumor cell
+T cell mediated immunity|peripheral T cell tolerance induction
+peripheral T cell tolerance induction|T cell tolerance induction in mucosal-associated lymphoid tissue
+peripheral T cell tolerance induction|T cell tolerance induction to tumor cell
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains|T cell mediated immunity
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains|tolerance induction dependent upon immune response
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains|germinal center formation
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains|B cell mediated immunity
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains|T-helper 1 type immune response
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains|T-helper 17 type immune response
+tolerance induction dependent upon immune response|tolerance induction to nonself antigen
+tolerance induction dependent upon immune response|peripheral tolerance induction
+tolerance induction to nonself antigen|mucosal tolerance induction
+tolerance induction to nonself antigen|central tolerance induction to nonself antigen
+tolerance induction to nonself antigen|peripheral tolerance induction to nonself antigen
+peripheral tolerance induction|tolerance induction to tumor cell
+peripheral tolerance induction|peripheral B cell tolerance induction
+peripheral tolerance induction|peripheral T cell tolerance induction
+peripheral tolerance induction|peripheral tolerance induction to nonself antigen
+peripheral tolerance induction|peripheral tolerance induction to self antigen
+dendritic cell antigen processing and presentation|myeloid dendritic cell antigen processing and presentation
+dendritic cell antigen processing and presentation|plasmacytoid dendritic cell antigen processing and presentation
+antigen processing and presentation of peptide antigen via MHC class I|antigen processing and presentation of endogenous peptide antigen via MHC class I
+antigen processing and presentation of peptide antigen via MHC class I|antigen processing and presentation of exogenous peptide antigen via MHC class I
+antigen processing and presentation via MHC class Ib|antigen processing and presentation of peptide antigen via MHC class Ib
+antigen processing and presentation via MHC class Ib|antigen processing and presentation of lipid antigen via MHC class Ib
+antigen processing and presentation of endogenous peptide antigen via MHC class Ib|antigen processing and presentation of endogenous peptide antigen via MHC class Ib via ER pathway
+antigen processing and presentation of exogenous peptide antigen via MHC class Ib|antigen processing and presentation of exogenous protein antigen via MHC class Ib, TAP-dependent
+antigen processing and presentation of exogenous peptide antigen via MHC class Ib|antigen processing and presentation of exogenous protein antigen via MHC class Ib, TAP-independent
+antigen processing and presentation of exogenous peptide antigen|antigen processing and presentation of exogenous peptide antigen via MHC class Ib
+antigen processing and presentation of exogenous peptide antigen|antigen processing and presentation of exogenous peptide antigen via MHC class II
+antigen processing and presentation of exogenous peptide antigen|antigen processing and presentation of exogenous peptide antigen via MHC class I
+antigen processing and presentation of endogenous peptide antigen|antigen processing and presentation of endogenous peptide antigen via MHC class Ib
+antigen processing and presentation of endogenous peptide antigen|antigen processing and presentation of endogenous peptide antigen via MHC class II
+antigen processing and presentation of endogenous peptide antigen|antigen processing and presentation of endogenous peptide antigen via MHC class I
+antigen processing and presentation of endogenous peptide antigen via MHC class I via ER pathway|antigen processing and presentation of endogenous peptide antigen via MHC class I via ER pathway, TAP-dependent
+antigen processing and presentation of endogenous peptide antigen via MHC class I via ER pathway|antigen processing and presentation of endogenous peptide antigen via MHC class I via ER pathway, TAP-independent
+antigen processing and presentation of endogenous peptide antigen via MHC class Ib via ER pathway|antigen processing and presentation of endogenous peptide antigen via MHC class Ib via ER pathway, TAP-dependent
+antigen processing and presentation of endogenous peptide antigen via MHC class Ib via ER pathway|antigen processing and presentation of endogenous peptide antigen via MHC class Ib via ER pathway, TAP-independent
+antigen processing and presentation of peptide antigen via MHC class II|antigen processing and presentation of endogenous peptide antigen via MHC class II
+antigen processing and presentation of peptide antigen via MHC class II|antigen processing and presentation of exogenous peptide antigen via MHC class II
+antigen processing and presentation of peptide or polysaccharide antigen via MHC class II|antigen processing and presentation of peptide antigen via MHC class II
+antigen processing and presentation of peptide or polysaccharide antigen via MHC class II|antigen processing and presentation of polysaccharide antigen via MHC class II
+tolerance induction|lymphocyte anergy
+tolerance induction|tolerance induction dependent upon immune response
+tolerance induction|central tolerance induction
+tolerance induction|tolerance induction to self antigen
+tolerance induction|B cell tolerance induction
+tolerance induction|T cell tolerance induction
+tolerance induction|natural killer cell tolerance induction
+tolerance induction|macrophage tolerance induction
+tolerance induction|tolerance induction to lipopolysaccharide
+central tolerance induction|central tolerance induction to nonself antigen
+central tolerance induction|central tolerance induction to self antigen
+central tolerance induction|central B cell tolerance induction
+central tolerance induction|central T cell tolerance induction
+tolerance induction to self antigen|peripheral tolerance induction to self antigen
+tolerance induction to self antigen|central tolerance induction to self antigen
+B cell tolerance induction|peripheral B cell tolerance induction
+B cell tolerance induction|central B cell tolerance induction
+B cell tolerance induction|B cell anergy
+B cell anergy|central B cell anergy
+B cell anergy|peripheral B cell anergy
+T cell tolerance induction|peripheral T cell tolerance induction
+T cell tolerance induction|central T cell tolerance induction
+T cell tolerance induction|T cell anergy
+lymphocyte chemotaxis across high endothelial venule|B cell chemotaxis across high endothelial venule
+leukocyte migration involved in immune response|leukocyte chemotaxis involved in immune response
+leukocyte migration involved in inflammatory response|leukocyte chemotaxis involved in inflammatory response
+hypersensitivity|type III hypersensitivity
+hypersensitivity|type IV hypersensitivity
+hypersensitivity|type II hypersensitivity
+hypersensitivity|type I hypersensitivity
+basophil mediated immunity|type I hypersensitivity mediated by basophils
+somatic diversification of immune receptors via germline recombination within a single locus|somatic recombination of T cell receptor gene segments
+somatic diversification of immune receptors via germline recombination within a single locus|somatic recombination of immunoglobulin gene segments
+somatic diversification of immune receptors via germline recombination within a single locus|V(D)J recombination
+somatic diversification of immune receptors via alternate splicing|alternate splicing of immunoglobulin genes
+somatic diversification of immune receptors via gene conversion|gene conversion of immunoglobulin genes
+somatic diversification of immune receptors via somatic mutation|somatic hypermutation of immunoglobulin genes
+somatic diversification of T cell receptor genes|somatic diversification of T cell receptor genes by N region addition
+somatic diversification of T cell receptor genes|somatic recombination of T cell receptor gene segments
+somatic diversification of immune receptors by N region addition|somatic diversification of immunoglobulin genes by N region addition
+somatic diversification of immune receptors by N region addition|somatic diversification of T cell receptor genes by N region addition
+respiratory burst involved in defense response|respiratory burst involved in inflammatory response
+respiratory burst involved in defense response|respiratory burst after phagocytosis
+somatic recombination of T cell receptor gene segments|T cell receptor V(D)J recombination
+antigen processing and presentation initiated by receptor mediated uptake of antigen|antigen processing and presentation initiated by pattern recognition receptor mediated uptake of antigen
+antigen processing and presentation initiated by receptor mediated uptake of antigen|antigen processing and presentation following receptor mediated endocytosis
+antigen processing and presentation following pinocytosis|B cell antigen processing and presentation following pinocytosis
+antigen processing and presentation following pinocytosis|antigen processing and presentation following macropinocytosis
+antigen processing and presentation following phagocytosis|antigen processing and presentation initiated by toll-like receptor mediated phagocytosis of antigen
+antigen processing and presentation initiated by pattern recognition receptor mediated uptake of antigen|antigen processing and presentation initiated by toll-like receptor mediated phagocytosis of antigen
+antigen processing and presentation following receptor mediated endocytosis|B cell antigen processing and presentation mediated by B cell receptor uptake of antigen
+cytoplasmic pattern recognition receptor signaling pathway|cytoplasmic pattern recognition receptor signaling pathway in response to virus
+cytoplasmic pattern recognition receptor signaling pathway|nucleotide-binding oligomerization domain containing signaling pathway
+MyD88-dependent toll-like receptor signaling pathway|MyD88-dependent toll-like receptor 4 signaling pathway
+MyD88-dependent toll-like receptor signaling pathway|MyD88-dependent toll-like receptor 2 signaling pathway
+MyD88-independent toll-like receptor signaling pathway|TRIF-dependent toll-like receptor signaling pathway
+MyD88-independent toll-like receptor signaling pathway|TRAM-dependent toll-like receptor signaling pathway
+immune response-activating signal transduction|immune response-activating cell surface receptor signaling pathway
+immune response-activating signal transduction|innate immune response-activating signal transduction
+innate immune response-activating signal transduction|innate immune response activating cell surface receptor signaling pathway
+innate immune response-activating signal transduction|pattern recognition receptor signaling pathway
+innate immune response-activating signal transduction|activation of MAPK activity involved in innate immune response
+innate immune response-activating signal transduction|activation of MAPKK activity involved in innate immune response
+innate immune response-activating signal transduction|activation of MAPKKK activity involved in innate immune response
+innate immune response-activating signal transduction|MAPK import into nucleus involved in innate immune response
+antimicrobial peptide production|antibacterial peptide production
+antimicrobial peptide production|antifungal peptide production
+antimicrobial humoral response|antibacterial humoral response
+antimicrobial humoral response|antifungal humoral response
+complement activation|complement activation, lectin pathway
+complement activation|activation of membrane attack complex
+complement activation|complement activation, alternative pathway
+complement activation|complement activation, classical pathway
+immune response|adaptive immune response
+immune response|organ or tissue specific immune response
+immune response|immune response to tumor cell
+immune response|inflammatory response to antigenic stimulus
+immune response|humoral immune response
+immune response|type 2 immune response
+immune response|innate immune response
+immune response|immune response involved in response to exogenous dsRNA
+humoral immune response|humoral immune response mediated by circulating immunoglobulin
+humoral immune response|antimicrobial humoral response
+humoral immune response|complement activation
+humoral immune response|hemolymph coagulation
+natural killer cell mediated cytotoxicity|natural killer cell mediated cytotoxicity directed against tumor cell target
+virus induced gene silencing|RNA virus induced gene silencing
+virus induced gene silencing|DNA virus induced gene silencing
+defense response, incompatible interaction|systemic acquired resistance
+defense response, incompatible interaction|induction of phytoalexin biosynthetic process
+defense response, incompatible interaction|defense response to bacterium, incompatible interaction
+defense response, incompatible interaction|defense response to fungus, incompatible interaction
+defense response, incompatible interaction|defense response to protozoan, incompatible interaction
+defense response, incompatible interaction|jasmonic acid and ethylene-dependent systemic resistance
+T cell chemotaxis|helper T cell chemotaxis
+immunoglobulin mediated immune response|type III hypersensitivity
+immunoglobulin mediated immune response|type II hypersensitivity
+immunoglobulin mediated immune response|humoral immune response mediated by circulating immunoglobulin
+immunoglobulin mediated immune response|type I hypersensitivity
+immunoglobulin mediated immune response|immune complex formation
+immunoglobulin mediated immune response|immunoglobulin-mediated neutralization
+type I hypersensitivity|type I hypersensitivity mediated by mast cells
+type I hypersensitivity|type I hypersensitivity mediated by basophils
+somatic diversification of immunoglobulins|gene conversion of immunoglobulin genes
+somatic diversification of immunoglobulins|somatic diversification of immunoglobulins involved in immune response
+somatic diversification of immunoglobulins|alternate splicing of immunoglobulin genes
+somatic diversification of immunoglobulins|somatic diversification of immunoglobulin genes by N region addition
+somatic diversification of immunoglobulins|somatic hypermutation of immunoglobulin genes
+somatic diversification of immunoglobulins|somatic recombination of immunoglobulin gene segments
+somatic hypermutation of immunoglobulin genes|somatic hypermutation of immunoglobulin genes involved in immune response
+somatic recombination of immunoglobulin gene segments|somatic recombination of immunoglobulin genes involved in immune response
+somatic recombination of immunoglobulin gene segments|B cell receptor editing
+somatic recombination of immunoglobulin gene segments|immunoglobulin V(D)J recombination
+B cell mediated immunity|B cell cytokine production
+B cell mediated immunity|peripheral B cell tolerance induction
+B cell mediated immunity|immunoglobulin mediated immune response
+antibacterial humoral response|male-specific antibacterial humoral response
+antibacterial humoral response|induction of bacterial agglutination
+antigen processing and presentation|B cell antigen processing and presentation
+antigen processing and presentation|T cell antigen processing and presentation
+antigen processing and presentation|dendritic cell antigen processing and presentation
+antigen processing and presentation|monocyte antigen processing and presentation
+antigen processing and presentation|macrophage antigen processing and presentation
+antigen processing and presentation|non-professional antigen presenting cell antigen processing and presentation
+antigen processing and presentation|antigen processing and presentation via MHC class Ib
+antigen processing and presentation|antigen processing and presentation of peptide or polysaccharide antigen via MHC class II
+antigen processing and presentation|antigen processing and presentation initiated by receptor mediated uptake of antigen
+antigen processing and presentation|antigen processing and presentation following pinocytosis
+antigen processing and presentation|antigen processing and presentation following phagocytosis
+antigen processing and presentation|antigen processing and presentation of endogenous antigen
+antigen processing and presentation|antigen processing and presentation of exogenous antigen
+antigen processing and presentation|antigen processing and presentation of peptide antigen
+antigen processing and presentation of endogenous antigen|antigen processing and presentation of endogenous peptide antigen
+antigen processing and presentation of endogenous antigen|antigen processing and presentation, endogenous lipid antigen via MHC class Ib
+antigen processing and presentation of exogenous antigen|antigen processing and presentation of exogenous peptide antigen
+antigen processing and presentation of exogenous antigen|antigen processing and presentation, exogenous lipid antigen via MHC class Ib
+antigen processing and presentation of endogenous peptide antigen via MHC class I|antigen processing and presentation of endogenous peptide antigen via MHC class I via ER pathway
+antigen processing and presentation of endogenous peptide antigen via MHC class I|antigen processing and presentation of endogenous peptide antigen via MHC class I via endolysosomal pathway
+lymphocyte differentiation|natural killer cell differentiation
+lymphocyte differentiation|B cell differentiation
+lymphocyte differentiation|T cell differentiation
+natural killer cell activation|natural killer cell differentiation
+natural killer cell activation|natural killer cell proliferation
+natural killer cell activation|natural killer cell activation involved in immune response
+B cell differentiation|immature B cell differentiation
+B cell differentiation|mature B cell differentiation
+T cell differentiation|T cell differentiation involved in immune response
+T cell differentiation|T cell differentiation in thymus
+T cell differentiation|extrathymic T cell differentiation
+T cell differentiation|gamma-delta T cell differentiation
+T cell differentiation|cytotoxic T cell differentiation
+T cell differentiation|regulatory T cell differentiation
+T cell differentiation|alpha-beta T cell differentiation
+leukocyte chemotaxis|leukocyte chemotaxis involved in inflammatory response
+leukocyte chemotaxis|leukocyte chemotaxis involved in immune response
+leukocyte chemotaxis|dendritic cell chemotaxis
+leukocyte chemotaxis|monocyte chemotaxis
+leukocyte chemotaxis|mast cell chemotaxis
+leukocyte chemotaxis|macrophage chemotaxis
+leukocyte chemotaxis|lymphocyte chemotaxis
+leukocyte chemotaxis|granulocyte chemotaxis
+lymphocyte costimulation|T cell costimulation
+lymphocyte costimulation|B cell costimulation
+T cell costimulation|CD4-positive, alpha-beta T cell costimulation
+T cell differentiation in thymus|DN2 thymocyte differentiation
+T cell differentiation in thymus|DN3 thymocyte differentiation
+T cell differentiation in thymus|DN4 thymocyte differentiation
+immature T cell proliferation|immature T cell proliferation in thymus
+V(D)J recombination|immunoglobulin V(D)J recombination
+V(D)J recombination|T cell receptor V(D)J recombination
+immunoglobulin V(D)J recombination|immunoglobulin heavy chain V-D-J recombination
+immunoglobulin V(D)J recombination|immunoglobulin light chain V-J recombination
+toll-like receptor 2 signaling pathway|MyD88-dependent toll-like receptor 2 signaling pathway
+toll-like receptor 4 signaling pathway|MyD88-dependent toll-like receptor 4 signaling pathway
+toll-like receptor 4 signaling pathway|TIRAP-dependent toll-like receptor 4 signaling pathway
+toll-like receptor 4 signaling pathway|TRIF-dependent toll-like receptor 4 signaling pathway
+toll-like receptor 4 signaling pathway|TRAM-dependent toll-like receptor 4 signaling pathway
+melanization defense response|melanotic encapsulation of foreign target
+encapsulation of foreign target|melanotic encapsulation of foreign target
+embryonic hemocyte differentiation|embryonic plasmatocyte differentiation
+embryonic hemocyte differentiation|embryonic crystal cell differentiation
+larval lymph gland hemocyte differentiation|lymph gland plasmatocyte differentiation
+larval lymph gland hemocyte differentiation|lymph gland crystal cell differentiation
+larval lymph gland hemocyte differentiation|lamellocyte differentiation
+TIRAP-dependent toll-like receptor signaling pathway|TIRAP-dependent toll-like receptor 4 signaling pathway
+TRIF-dependent toll-like receptor signaling pathway|TRIF-dependent toll-like receptor 4 signaling pathway
+TRAM-dependent toll-like receptor signaling pathway|TRAM-dependent toll-like receptor 4 signaling pathway
+helper T cell extravasation|T-helper 1 cell extravasation
+helper T cell extravasation|T-helper 17 cell extravasation
+helper T cell diapedesis|T-helper 1 cell diapedesis
+CD8-positive, alpha-beta T cell extravasation|T-helper 1 cell extravasation
+CD8-positive, alpha-beta T cell extravasation|CD8-positive, alpha-beta cytotoxic T cell extravasation
+CD8-positive, alpha-beta T cell extravasation|T-helper 17 cell extravasation
+helper T cell chemotaxis|T-helper 17 cell chemotaxis
+helper T cell chemotaxis|T-helper 1 cell chemotaxis
+helper T cell chemotaxis|T-helper 2 cell chemotaxis
+CD4-positive, alpha-beta T cell activation|T-helper 1 cell activation
+CD4-positive, alpha-beta T cell activation|T-helper 2 cell activation
+CD4-positive, alpha-beta T cell activation|CD4-positive, alpha-beta T cell proliferation
+CD4-positive, alpha-beta T cell activation|CD4-positive, alpha-beta T cell differentiation
+CD4-positive, alpha-beta T cell proliferation|activated CD4-positive, alpha-beta T cell proliferation
+CD8-positive, alpha-beta T cell proliferation|activated CD8-positive, alpha-beta T cell proliferation
+CD4-positive, alpha-beta T cell cytokine production|T-helper 1 cell cytokine production
+CD4-positive, alpha-beta T cell cytokine production|T-helper 2 cell cytokine production
+natural killer cell chemotaxis|mature natural killer cell chemotaxis
+B cell chemotaxis|B cell chemotaxis across high endothelial venule
+CD8-positive, alpha-beta T cell activation|CD8-positive, alpha-beta T cell proliferation
+CD8-positive, alpha-beta T cell activation|CD8-positive, alpha-beta T cell differentiation
+granulocyte activation|neutrophil activation
+granulocyte activation|eosinophil activation
+granulocyte activation|basophil activation
+dendritic cell migration|dendritic cell chemotaxis
+cytoplasmic pattern recognition receptor signaling pathway in response to virus|RIG-I signaling pathway
+cytoplasmic pattern recognition receptor signaling pathway in response to virus|MDA-5 signaling pathway
+T-helper cell differentiation|T-helper 1 cell differentiation
+T-helper cell differentiation|T-helper 2 cell differentiation
+T-helper cell differentiation|T follicular helper cell differentiation
+T-helper cell differentiation|T-helper 17 cell differentiation
+T cell proliferation|T cell homeostatic proliferation
+T cell proliferation|T cell proliferation involved in immune response
+T cell proliferation|immature T cell proliferation
+T cell proliferation|gamma-delta T cell proliferation
+T cell proliferation|alpha-beta T cell proliferation
+T cell proliferation|activated T cell proliferation
+T cell proliferation|memory T cell proliferation
+B cell proliferation|B cell proliferation involved in immune response
+B cell proliferation|B cell homeostatic proliferation
+B cell proliferation|B-1 B cell proliferation
+T cell activation|T cell activation involved in immune response
+T cell activation|T cell differentiation
+T cell activation|memory T cell activation
+T cell activation|T cell proliferation
+T cell activation|gamma-delta T cell activation
+T cell activation|alpha-beta T cell activation
+B cell activation|B cell activation involved in immune response
+B cell activation|B cell differentiation
+B cell activation|B cell proliferation
+macrophage activation|microglial cell activation
+macrophage activation|macrophage activation involved in immune response
+monocyte activation|monocyte activation involved in immune response
+neutrophil activation|neutrophil activation involved in immune response
+hemocyte differentiation|embryonic hemocyte differentiation
+hemocyte differentiation|larval lymph gland hemocyte differentiation
+hemocyte differentiation|plasmatocyte differentiation
+hemocyte differentiation|crystal cell differentiation
+plasmatocyte differentiation|embryonic plasmatocyte differentiation
+plasmatocyte differentiation|lymph gland plasmatocyte differentiation
+plasmatocyte differentiation|lamellocyte differentiation
+gamma-delta T cell differentiation|gamma-delta T cell differentiation involved in immune response
+gamma-delta T cell differentiation|gamma-delta intraepithelial T cell differentiation
+antigen processing and presentation of exogenous peptide antigen via MHC class I|antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent
+antigen processing and presentation of exogenous peptide antigen via MHC class I|antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-independent
+crystal cell differentiation|embryonic crystal cell differentiation
+crystal cell differentiation|lymph gland crystal cell differentiation
+myeloid dendritic cell differentiation|myeloid dendritic cell differentiation involved in immune response
+myeloid dendritic cell differentiation|Langerhans cell differentiation
+leukocyte degranulation|basophil degranulation
+leukocyte degranulation|mast cell degranulation
+leukocyte degranulation|eosinophil degranulation
+leukocyte degranulation|neutrophil degranulation
+leukocyte degranulation|cytotoxic T cell degranulation
+leukocyte degranulation|natural killer cell degranulation
+eosinophil activation|eosinophil activation involved in immune response
+CD4-positive, alpha-beta T cell differentiation|CD4-positive, alpha-beta T cell differentiation involved in immune response
+CD4-positive, alpha-beta T cell differentiation|CD4-positive, alpha-beta intraepithelial T cell differentiation
+CD4-positive, alpha-beta T cell differentiation|CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation
+positive T cell selection|positive thymic T cell selection
+positive T cell selection|positive extrathymic T cell selection
+CD8-positive, alpha-beta T cell differentiation|CD8-positive, alpha-beta intraepithelial T cell differentiation
+CD8-positive, alpha-beta T cell differentiation|CD8-positive, alpha-beta T cell differentiation involved in immune response
+CD8-positive, alpha-beta T cell differentiation|CD8-positive, alpha-beta regulatory T cell differentiation
+CD8-positive, alpha-beta T cell differentiation|CD8-positive, alpha-beta cytotoxic T cell differentiation
+negative T cell selection|negative thymic T cell selection
+negative T cell selection|negative extrathymic T cell selection
+T cell selection|beta selection
+T cell selection|positive T cell selection
+T cell selection|negative T cell selection
+T cell selection|thymic T cell selection
+T cell selection|extrathymic T cell selection
+thymic T cell selection|positive thymic T cell selection
+thymic T cell selection|negative thymic T cell selection
+extrathymic T cell selection|positive extrathymic T cell selection
+extrathymic T cell selection|negative extrathymic T cell selection
+cytotoxic T cell differentiation|CD8-positive, alpha-beta cytotoxic T cell differentiation
+regulatory T cell differentiation|CD8-positive, alpha-beta regulatory T cell differentiation
+regulatory T cell differentiation|CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation
+innate immune response|complement activation, lectin pathway
+innate immune response|innate immune response in mucosa
+innate immune response|natural killer cell mediated immunity
+innate immune response|complement activation, alternative pathway
+innate immune response|virus induced gene silencing
+innate immune response|plant-type hypersensitive response
+innate immune response|induced systemic resistance
+innate immune response|defense response, incompatible interaction
+innate immune response|melanization defense response
+innate immune response|hemolymph coagulation
+innate immune response|age-related resistance
+cellular extravasation|monocyte extravasation
+cellular extravasation|neutrophil extravasation
+cellular extravasation|eosinophil extravasation
+cellular extravasation|T cell extravasation
+isotype switching|isotype switching to IgE isotypes
+isotype switching|isotype switching to IgA isotypes
+isotype switching|isotype switching to IgG isotypes
+isotype switching|isotype switching to IgD isotypes
+leukocyte activation|leukocyte activation involved in inflammatory response
+leukocyte activation|plasmacytoid dendritic cell activation
+leukocyte activation|myeloid leukocyte activation
+leukocyte activation|leukocyte activation involved in immune response
+leukocyte activation|lymphocyte activation
+leukocyte activation|leukocyte adhesive activation
+leukocyte activation|T cell aggregation
+basophil activation|basophil activation involved in immune response
+mast cell activation|mast cell activation involved in immune response
+gamma-delta T cell activation|gamma-delta T cell activation involved in immune response
+gamma-delta T cell activation|gamma-delta T cell differentiation
+gamma-delta T cell activation|gamma-delta T cell proliferation
+gamma-delta T cell proliferation|gamma-delta T cell proliferation involved in immune response
+alpha-beta T cell activation|alpha-beta T cell activation involved in immune response
+alpha-beta T cell activation|CD4-positive, alpha-beta T cell activation
+alpha-beta T cell activation|CD8-positive, alpha-beta T cell activation
+alpha-beta T cell activation|alpha-beta T cell activation by superantigen
+alpha-beta T cell activation|alpha-beta T cell differentiation
+alpha-beta T cell activation|alpha-beta T cell proliferation
+alpha-beta T cell activation|NK T cell activation
+alpha-beta T cell differentiation|NK T cell differentiation
+alpha-beta T cell differentiation|alpha-beta T cell differentiation involved in immune response
+alpha-beta T cell differentiation|alpha-beta intraepithelial T cell differentiation
+alpha-beta T cell differentiation|CD4-positive, alpha-beta T cell differentiation
+alpha-beta T cell differentiation|CD8-positive, alpha-beta T cell differentiation
+alpha-beta T cell proliferation|NK T cell proliferation
+alpha-beta T cell proliferation|alpha-beta T cell proliferation involved in immune response
+alpha-beta T cell proliferation|CD4-positive, alpha-beta T cell proliferation
+alpha-beta T cell proliferation|CD8-positive, alpha-beta T cell proliferation
+lymphocyte activation|lymphocyte activation involved in immune response
+lymphocyte activation|lymphocyte differentiation
+lymphocyte activation|natural killer cell activation
+lymphocyte activation|T cell activation
+lymphocyte activation|B cell activation
+lymphocyte activation|lymphocyte proliferation
+lymphocyte proliferation|natural killer cell proliferation
+lymphocyte proliferation|T cell proliferation
+lymphocyte proliferation|B cell proliferation
+lymphocyte proliferation|dendritic cell proliferation
+antigen processing and presentation of peptide antigen|antigen processing and presentation of peptide antigen via MHC class Ib
+antigen processing and presentation of peptide antigen|antigen processing and presentation of peptide antigen via MHC class I
+antigen processing and presentation of peptide antigen|antigen processing and presentation of exogenous peptide antigen
+antigen processing and presentation of peptide antigen|antigen processing and presentation of endogenous peptide antigen
+antigen processing and presentation of peptide antigen|antigen processing and presentation of peptide antigen via MHC class II
+antigen processing and presentation of lipid antigen via MHC class Ib|antigen processing and presentation, endogenous lipid antigen via MHC class Ib
+antigen processing and presentation of lipid antigen via MHC class Ib|antigen processing and presentation, exogenous lipid antigen via MHC class Ib
+lymphocyte chemotaxis|lymphocyte chemotaxis across high endothelial venule
+lymphocyte chemotaxis|T cell chemotaxis
+lymphocyte chemotaxis|natural killer cell chemotaxis
+lymphocyte chemotaxis|B cell chemotaxis
+isotype switching to IgE isotypes|interleukin-4-dependent isotype switching to IgE isotypes
+antigen receptor-mediated signaling pathway|T cell receptor signaling pathway
+antigen receptor-mediated signaling pathway|B cell receptor signaling pathway
+B cell receptor signaling pathway|B cell receptor apoptotic signaling pathway
+leukocyte migration|leukocyte migration involved in immune response
+leukocyte migration|leukocyte migration involved in inflammatory response
+leukocyte migration|leukocyte chemotaxis
+leukocyte migration|dendritic cell migration
+leukocyte migration|cellular extravasation
+leukocyte migration|diapedesis
+leukocyte migration|mononuclear cell migration
+leukocyte migration|lymphocyte migration
+leukocyte migration|myeloid leukocyte migration
+diapedesis|helper T cell diapedesis
+NK T cell activation|NK T cell activation involved in immune response
+defense response to virus|virus induced gene silencing
+myeloid leukocyte cytokine production|myeloid dendritic cell cytokine production
+myeloid leukocyte cytokine production|macrophage cytokine production
+myeloid leukocyte cytokine production|mast cell cytokine production
+nucleotide-binding oligomerization domain containing signaling pathway|nucleotide-binding oligomerization domain containing 1 signaling pathway
+nucleotide-binding oligomerization domain containing signaling pathway|nucleotide-binding oligomerization domain containing 2 signaling pathway
+T cell aggregation|T cell activation
+T cell aggregation|thymocyte aggregation
+neutrophil mediated cytotoxicity|neutrophil mediated killing of symbiont cell
+neutrophil mediated killing of symbiont cell|neutrophil mediated killing of bacterium
+neutrophil mediated killing of symbiont cell|neutrophil mediated killing of fungus
+neutrophil mediated killing of bacterium|neutrophil mediated killing of gram-negative bacterium
+neutrophil mediated killing of bacterium|neutrophil mediated killing of gram-positive bacterium
+thymocyte aggregation|T cell differentiation in thymus
+thymocyte aggregation|immature T cell proliferation in thymus
+granulocyte chemotaxis|basophil chemotaxis
+granulocyte chemotaxis|neutrophil chemotaxis
+granulocyte chemotaxis|eosinophil chemotaxis
+lymphocyte migration|lymphocyte chemotaxis
+lymphocyte migration|T cell migration
+lymphocyte migration|lymphocyte migration into lymphoid organs
+eosinophil migration|eosinophil chemotaxis
+eosinophil migration|eosinophil extravasation
+T cell migration|T cell chemotaxis
+T cell migration|helper T cell diapedesis
+T cell migration|thymocyte migration
+T cell migration|T cell extravasation
+thymocyte migration|extracellular matrix-dependent thymocyte migration
+extracellular matrix-dependent thymocyte migration|fibronectin-dependent thymocyte migration
+T cell extravasation|memory T cell extravasation
+T cell extravasation|helper T cell extravasation
+T cell extravasation|CD8-positive, alpha-beta T cell extravasation
+lymphocyte migration into lymphoid organs|lymphocyte migration into lymph node
+histamine secretion mediated by immunoglobulin|histamine secretion mediated by IgE immunoglobulin
+myeloid leukocyte migration|myeloid dendritic cell chemotaxis
+myeloid leukocyte migration|monocyte chemotaxis
+myeloid leukocyte migration|monocyte extravasation
+myeloid leukocyte migration|monocyte migration into blood stream
+myeloid leukocyte migration|macrophage chemotaxis
+myeloid leukocyte migration|granulocyte migration
+myeloid leukocyte migration|mast cell migration
+myeloid leukocyte migration|microglial cell migration
+granulocyte migration|granulocyte chemotaxis
+granulocyte migration|eosinophil migration
+granulocyte migration|neutrophil migration
+mast cell migration|mast cell chemotaxis
+neutrophil migration|neutrophil chemotaxis
+neutrophil migration|neutrophil extravasation
