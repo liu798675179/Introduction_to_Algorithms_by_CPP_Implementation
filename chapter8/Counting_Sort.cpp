@@ -18,7 +18,7 @@ vector<long long> Random() {
 }
 
 void Counting_sort(vector<long long> &v1) {
-	vector<long long> temp_v1 = v1;
+	auto temp_v1 = v1;
 	vector<long long> temp_count(v1.size(), 0);
 
 	for (auto &j : v1) {
