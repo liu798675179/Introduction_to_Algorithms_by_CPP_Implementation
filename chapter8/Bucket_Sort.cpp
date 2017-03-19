@@ -2,11 +2,12 @@
 #include <vector>
 #include <random>
 #include <algorithm>
+#include <ctime>
 
 using namespace std;
 
 vector<double> Random() {
-	static default_random_engine             e;
+	static default_random_engine             e(time(nullptr));
 	static uniform_real_distribution<double> u(0, 1);
 	vector<double>                           v1;
 
