@@ -346,10 +346,10 @@ public:
 		iterator itaval(p->next);
 		try {
 			if (p == head) {
-				throw runtime_error("No elements can erase!");
+				throw std::runtime_error("No elements can erase!");
 			}
 			else if (p == tail) {
-				throw runtime_error("No elements can erase!");
+				throw std::runtime_error("No elements can erase!");
 			}
 			else {
 				p->prev->next = p->next;
@@ -357,8 +357,8 @@ public:
 				--List_Size;
 			}
 		}
-		catch (runtime_error err) {
-			cout << err.what() << endl;
+		catch (std::runtime_error err) {
+			std::cout << err.what() << std::endl;
 		}
 		return itaval;
 	}
@@ -378,7 +378,7 @@ public:
 
 	void print() {
 		for (auto &i : *this) {
-			cout << i << endl;
+			std::cout << i << std::endl;
 		}
 	}
 
@@ -419,8 +419,8 @@ public:
 		return begin() + temp_count;
 	}
 
-	bool empty() { return List_Size == 0; }
-	size_t size() { return List_Size; }
+	bool empty() const { return List_Size == 0; }
+	size_t size() const { return List_Size; }
 	Data& front() { return *begin(); }
 	const Data& front() const { return front(); }
 	Data& back() { return *--end(); }
